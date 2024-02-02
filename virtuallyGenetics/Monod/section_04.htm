@@ -1,0 +1,284 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<head>
+<style><!--
+			font { font-size: 10pt; font-family: verdana, arial, helvetica, sans-serif }
+			h1 { color: #0000FF; font-style: italic; font-size: 18pt; font-family: verdana, arial, helvetica, sans-serif }
+			h2 { color: #0066FF; font-size: 14pt; font-family: verdana, arial, helvetica, sans-serif }
+			ol { font-size: 10pt; font-family: verdana, arial, helvetica, sans-serif }
+			p { font-size: 10pt; font-family: verdana, arial, helvetica, sans-serif }
+			td { font-size: 11pt; font-family: verdana, arial, helvetica, sans-serif }
+			ul { font-size: 11pt; font-family: verdana, arial, helvetica, sans-serif }-->
+		</style>
+<style type="text/css">
+   <!--
+   a:link {  text-decoration: none}
+   a:visited {  text-decoration: none}
+   a:active {  text-decoration: none}
+   a:hover {  text-decoration: bold}
+   -->
+   </style>
+<title>Generating mutations</title>
+<script language="JavaScript"></script>
+<script language="JavaScript" src="scripts/behActions.js"></script>
+<script language="JavaScript" src="scripts/behCourseBuilder.js"></script>
+<script language="JavaScript" src="scripts/interactionClass.js"></script>
+<script language="JavaScript" src="scripts/elemInptClass.js"></script>
+</head>
+<title>Adaptation I</title>
+</head>
+<BODY bgcolor="#FFFFFF" onload=zeroBorders()>
+<h1>Mutational analyses</h1>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+        
+    <td height="210"> 
+      <p><font face="Arial, Helvetica, sans-serif">The power of mutational analysis 
+        is that after the investigator has defined their screen or selection, 
+        the organism provides the mutations without regards to the investigator's 
+        preconceptions. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Genetic analysis can often 
+        reveals unexpected components of a process. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">At the same time, it is worth 
+        remembering that not all genes are equally mutable and a particular gene 
+        may be involved in many processes. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Many genes involved in a process 
+        may be difficult or impossible to recognize by simple genetic methods. 
+        </font></p>
+      <hr size="2">
+      <p><font face="Arial, Helvetica, sans-serif">Mutations arise spontaneously, 
+        due to mistakes in DNA replication, chemical or radiation induced damage 
+        to DNA. Spontaneous mutations are useful, since it is likely that only 
+        a single gene has been altered. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">It may be difficult, however, 
+        to accumulate enough spontaneous mutations. </font><font face="Arial, Helvetica, sans-serif">To 
+        get sufficient numbers it is often necessary to induce them. </font></p>
+      <table width="23%" border="1" cellpadding="0" align="right">
+        <tr> 
+          <td>
+            <div align="right"><b><font color="#0000FF" face="Arial, Helvetica, sans-serif">MULLER</font></b><font face="Arial, Helvetica, sans-serif"> 
+              discusses the induction and type so mutations</font></div>
+          </td>
+        </tr>
+      </table>
+      <p>&nbsp;</p>
+      <p><font face="Arial, Helvetica, sans-serif">Mutations can be induced using 
+        radiation, <i>e.g.</i> UV light, X-rays, gamma-rays, or by exposure to 
+        mutagenic chemicals -- all act by changing the structure of the genetic 
+        material, <b><font color="#990000">DNA</font></b>.</font><font face="Arial, Helvetica, sans-serif"><br>
+        </font></p>
+      <p align="left"><font face="Arial, Helvetica, sans-serif">In our experiments, 
+        we will use UV light to mutagenized a culture of <i>E. coli</i>. </font></p>
+      </td>
+      </tr>
+    </table>
+    
+<table width="600" border="0" cellpadding="1">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="489"> 
+      <h2>Making Mutations</h2>
+      <p><font face="Arial, Helvetica, sans-serif">UV mutagenesis primarily leads 
+        to the formation of thymidine dimers within DNA and requires the cells 
+        contain an <b>&quot;<a href="http://www.brunel.ac.uk/depts/bl/project/molgen/bacteria/dnarep/sosrep.htm" target="_new">SOS&quot; 
+        repair system</a></b>, which <i>E. coli</i> does. </font></p>
+      <p><font color="#FF0000" face="Arial, Helvetica, sans-serif"><b>CAREFUL</b></font><font face="Arial, Helvetica, sans-serif">: 
+        Since we humans also have an SOS-like system, so exposure to UV light 
+        generates mutations in our cells and this is to be avoided.</font></p>
+      <p>&nbsp;</p>
+      </td>
+    <td width="101"> 
+      <div align="center"> <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="320" height="320">
+          <param name=movie value="flash/T-T%20Dimer.swf">
+          <param name=quality value=high>
+          <embed src="flash/T-T%20Dimer.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="320" height="320">
+          </embed> 
+        </object></div>
+    </td>
+  </tr>
+</table>
+<table width="600" border="0" cellpadding="1">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="122"> 
+      <div align="left"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="330" height="220">
+          <param name=movie value="flash/SOS%20repair.swf">
+          <param name=quality value=high>
+          <embed src="flash/SOS%20repair.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="330" height="220">
+          </embed> 
+        </object></div>
+    </td>
+  </tr>
+</table>
+<table width="600" border="0" cellpadding="1">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="501"> 
+      <p align="left"><font face="Arial, Helvetica, sans-serif">Our experiment 
+        will be will be carried out in two steps. </font></p>
+      <p align="left"><font face="Arial, Helvetica, sans-serif">First we will 
+        calibrate </font><font face="Arial, Helvetica, sans-serif">a standard 
+        15 Watt &quot;germicidal&quot; UV lamp, which can be purchased from most 
+        electrical supply companies. </font></p>
+      <font face="Arial, Helvetica, sans-serif">To determine the UV output of 
+      our system, we will use a <b><font color="#990000">bioassay</font></b>, 
+      the killing of E. coli cells. </font> 
+      <p><b><font color="#000000" size="+5" face="Arial, Helvetica, sans-serif">Start</font></b><font face="Arial, Helvetica, sans-serif"> 
+        by growing up an overnight culture of <i>E. coli</i> in LB. </font><font face="Arial, Helvetica, sans-serif">In 
+        the morning, dilute the cultures into fresh LB and grown to a density 
+        of ~<img src="graphics/10%5E8.gif" width="19" height="13"> cells/ml. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Components in LB absorb UV 
+        light, and so reduce the effective dose of radiation. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">We will therefore 'wash' the 
+        bacteria by centrifugation and resuspend them in a UV-transparent medium 
+        (phosphate-buffered saline or PBS). </font></p>
+      </td>
+  </tr>
+</table>
+<table width="600" border="0" cellpadding="1">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="23%" height="281"> 
+      <p><font face="Arial, Helvetica, sans-serif"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="500" height="320">
+          <param name=movie value="flash/UVMutagenesis.swf">
+          <param name=quality value=high>
+          <embed src="flash/UVMutagenesis.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="500" height="320">
+          </embed> 
+        </object></font></p>
+    </td>
+    <td width="77%" height="281"> 
+      <div align="right">
+        <p><font face="Arial, Helvetica, sans-serif">Based on many 
+          studies, it is known that a UV flux 50 J/m^2 will reduce the viability 
+          of <i>E. coli</i> by 60%</font></p>
+        <p><font face="Arial, Helvetica, sans-serif">Optimal mutagenesis occurs 
+        when the level of bacteria that survive exposure to UV is ~1%. </font></p>
+        <ul>
+          <li><font face="Arial, Helvetica, sans-serif">Using your lamp, how long 
+            an exposure will you need?</font></li>
+        </ul>
+        <p><font face="Arial, Helvetica, sans-serif">. </font></p>
+      </div>
+    </td>
+  </tr>
+</table>
+<table width="600" border="0" cellpadding="1">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td> 
+      <h2><b>Making and finding a specific type of mutation</b></h2>
+      <p><font face="Arial, Helvetica, sans-serif"><font size="+5" color="#000000">Having</font> calibrated our UV lamp, we can determine whether we can use 
+        UV to generate mutations that specifically enable bacteria to grown in 
+        the presence of the antibiotic rifampin.</font></p>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="298"> <a href="http://teach.microbiol.unimelb.edu.au/micro/interLab/sectionA/topic1/db/class6.html" target="_new"><img src="graphics/rifampicin.gif" width="300" height="200" border="0"></a></td>
+    <td width="296"><font face="Arial, Helvetica, sans-serif">&nbsp;</font> 
+      <p><font face="Arial, Helvetica, sans-serif">Most of the current generation 
+        of <a href="http://www.bact.wisc.edu/microtextbook/ControlGrowth/antibiotic.html" target="_new"><b>antibiotics</b></a> 
+        are derivatives of natural products. </font></p>
+      <p align="right"><font face="Arial, Helvetica, sans-serif">Rifampin, for 
+        example, is a derivative of rifampicin, made by the eubacterium <i>Streptomyces 
+        mediterranei</i>. </font></p>
+      <p>Rifampin can kill a wide range of bacteria by binding to and inhibiting 
+        the activity of their DNA-dependent, RNA polymerase, an essential enzyme. 
+      </p>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td> 
+      <p><font face="Arial, Helvetica, sans-serif">Based on your previous estimate 
+        of UV flux, we will begin by exposing the cells to a dose of UV light 
+        sufficient to kill between 99% and 99.9% of the cells. </font></p>
+    </td>
+  </tr>
+</table>
+<table width="600" border="0" cellpadding="1">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td height="238"> 
+      <div align="center"> 
+        <p><b><br>
+          </b><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="560" height="320">
+            <param name=movie value="flash/rifampin.swf">
+            <param name=quality value=high>
+            <embed src="flash/rifampin.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="560" height="320">
+            </embed> 
+          </object></p>
+      </div>
+    </td>
+  </tr>
+</table>
+<table width="600" border="0" cellpadding="3">
+  <tr> 
+    <td width="40%" height="2"> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td> 
+      <ul>
+        <li>What is the frequency of rifampicin-resistant mutants in your cultures?</li>
+        <li>Is there an increase in the number of rifR mutants as UV dose increases? </li>
+        <li>Is the relationship a linear function of dose?</li>
+        <li>What other experiments would you like to do to answer this question?      </li>
+        <li>When you isolate rif- mutants how can you determine whether the mutants 
+          are related (that is share a common ancestor) or independent. </li>
+        <li>How could you insure that you are working only with independent mutations? </li>
+    </ul></td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="273" height="22"><p><font size="-2" face="Arial, Helvetica, sans-serif">revised 9 July 2003</font></p></td>
+    <td width="17" height="22">&nbsp;</td>
+    <td width="296" height="22"><div align="right"><b><a href="section_03.htm"><img src="../../images/ArrowLEFT.GIF" alt="" width="36" height="36"></a>|<a href="#top"><img src="../../images/ArrowUP.GIF" alt="" width="36" height="36" border="0"></a>|<a href="section_05.htm"><img src="../../images/ArrowRIGHT.gif" alt="" width="36" height="36" border="0"></a></b></div></td>
+  </tr>
+</table>
+</BODY>
+
+</HTML>
+    

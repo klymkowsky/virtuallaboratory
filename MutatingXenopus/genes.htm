@@ -1,0 +1,293 @@
+<!doctype html>
+<html>
+<head>
+   <meta charset="ISO-8859-1">
+   <meta name="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="description" content="MCDB 4101 Manipulating Genomes using CRISPR-based methods - in Xenopus laevis">
+   <meta name="keywords" content="Manipulating Genomes, UC Boulder, MCDB, Klymkowsky, Discovery lab course">
+   <meta name="keywords" content="discovery lab course, CURE, MCDB 4101, CRISPR-Cas9, Xenopus, UC Boulder">
+   <meta name="GENERATOR" content="Mozilla/4.75 (Macintosh; U; PPC) [Netscape]">
+   <title>MCDB 4101 Manipulating Genomes @ virtuallaboratory.colorado.edu</title>
+   <script type="text/javascript">
+<!--
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+//-->
+   </script>
+<meta name="keywords" content="free on-line biology text, interactive molecular biology, interactive text, biology on-line"><meta name="" content="free on-line biology, molecular biology, text">
+</head><style type="text/css">
+<!--
+a:link {text-decoration: none}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: underline}
+.style1 {font-size: x-small}
+.style7 {font-family: Arial, Helvetica, sans-serif;
+	font-size: x-small;
+}
+.optima {
+	font-family: optima;
+}
+.optima {
+	font-family: optima;
+}
+.optima p font {
+	font-family: optima;
+}
+.optima p font {
+	font-family: optima;
+}
+.optima p font b {
+	font-family: optima;
+}
+.style71 p {
+	font-family: Arial, Helvetica, sans-serif, Optima;
+}
+.optima {
+	font-family: Arial, Helvetica, sans-serif, Optima;
+}
+.optima .optima strong {
+	color: #F00;
+}
+.optima {
+	font-family: Optima Regular;
+}
+.helv {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.helb {
+	font-family: Arial, Helvetica, sans-serif;
+}
+.ptima {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+.standard {
+	font-family: Verdana, Geneva, sans-serif;
+}
+.standard {
+	font-family: Arial, Helvetica, sans-serif, Optima;
+}
+.book {
+	font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+}
+.hel {
+	font-family: Arial, Helvetica, sans-serif, Optima;
+}
+-->
+</style>
+<body bgcolor="#FCFDFF" text="#000000" link="#0000FF" vlink="#0066FF" alink="#0066FF">
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><hr size="1" noshade></td>
+  </tr>
+</table>
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="74%" height="206"><p><strong>Genes for which we already have primers and such:</strong></p>
+      <p>In past years, we have examined a number of genes, and so we have designed and generated a number of reagents.&nbsp; Our list of genes with existing reagents are listed below   (along with OMIM links).<br>
+      </p></td>
+    <td width="1%">&nbsp;   </td>
+    <td width="25%"><p><strong><img src="xenopus cover.jpg" width="180" height="187" alt="xenopous"></strong><br>
+      </p>
+      <div id="frameholder"></div></td>
+  </tr>
+</table>
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><hr size="1" noshade></td>
+  </tr>
+</table>
+<table width="760" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="201" bgcolor="#CCCCCC">Gene</td>
+    <td width="167" bgcolor="#CCCCCC">notes</td>
+    <td width="10" bgcolor="#999999">&nbsp;</td>
+    <td width="172" bgcolor="#CCCCCC">gene</td>
+    <td width="210" bgcolor="#CCCCCC">notes</td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/606933?search=Tyrosinase&highlight=tyrosinase" target="_blank">TYR (Tyrosinase)</a></span></td>
+    <td><span class="hel">+ control / pigmentation</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/610622?search=FUZ&highlight=fuz" target="_blank">FUZ</a></span></td>
+    <td><span class="hel">planar polarity</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/601788?search=myostatin&highlight=myostatin" target="_blank">MSTN (myostatin)</a></span></td>
+    <td><span class="hel">muscle regulator</span></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/608074?search=pdcd6ip&highlight=pdcd6ip" target="_blank">PDCP6IP</a></span></td>
+    <td><span class="hel">apoptosis </span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/600514?search=RELN&highlight=reln" target="_blank">RELN (reelin)</a></span></td>
+    <td><span class="hel">neuronal </span></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/615494" target="_blank">c21orf59</a></span></td>
+    <td><span class="hel">Down Syndrome</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/300169?search=aifm1&highlight=aifm1" target="_blank">AIFM1 </a></span></td>
+    <td><span class="hel">apoptisis / mitochondria</span></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/611460?search=Tprg1l&highlight=tprg1l" target="_blank">TPRG1l</a></span></td>
+    <td><span class="hel">cancer</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/604417?search=aff4&highlight=aff4" target="_blank">AFL4</a></span></td>
+    <td><h4><span class="hel">CHOPS syndrome / cancer</span></h4></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/600212?search=FASN&highlight=fasn" target="_blank">FASN</a></span></td>
+    <td><span class="hel">fatty acid synthesis</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/125255?search=DCN&highlight=dcn" target="_blank">DCN (decorin)</a></span></td>
+    <td><span class="hel">extracellular matrix</span></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/109135?search=AXL&highlight=axl" target="_blank">AXL </a></span></td>
+    <td><span class="hel">cancer</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/176851?search=PCMT1&highlight=pcmt1" target="_blank">PCMT1</a></span></td>
+    <td><span class="hel">methyl transferase</span></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/609917?search=ERI3&highlight=eri3" target="_blank">ERI3</a></span></td>
+    <td><span class="hel">neuronal (prion)</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/604896?search=MKKS&highlight=mkks" target="_blank">MKKS</a></span></td>
+    <td><span class="hel">centrosome/cytoplasm</span></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/601712?search=BIRC2&highlight=birc2" target="_blank">BIRC2</a></span></td>
+    <td><span class="hel">inflammation</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/159556?search=mllt1&highlight=mllt1" target="_blank">MLLT1</a></span></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/609388?search=mettl9&highlight=mettl9" target="_blank">METTL9</a></span></td>
+    <td><span class="hel">methyl transferase</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/600025?search=KLC1&highlight=klc1" target="_blank">KLC1</a></span></td>
+    <td><span class="hel">kinesin / microtubules</span></td>
+  </tr>
+  <tr>
+    <td height="21"><span class="hel"><a href="https://omim.org/entry/160770?search=MYL4&highlight=myl4" target="_blank">MYL4</a></span></td>
+    <td><span class="hel">muscle myosin light chain</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/614010?search=impad1&highlight=impad1" target="_blank">IMPAD1</a></span></td>
+    <td><span class="hel">skeletal system</span></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/137960?search=mpv17&highlight=mpv17" target="_blank">MPV17</a></span></td>
+    <td><span class="hel">mitochondrial protein</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/607280?search=cntn4&highlight=cntn4" target="_blank">CNTN4 (contactin-2)</a></span></td>
+    <td><span class="hel">neuronal</span></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="ugt1a1" target="_blank">UGT1A1</a></span></td>
+    <td><span class="hel">glycosyltransferase</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td> <span class="hel"><a href="https://omim.org/entry/607896?search=ovca2&highlight=ovca2" target="_blank">OVCA2</a></span></td>
+    <td><span class="hel">cancer</span></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/605611?search=sh3bp4&highlight=sh3bp4" target="_blank">SH3BP4</a></span></td>
+    <td><span class="hel">SH3 binding (signaling)</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/608396?search=slc9a9&highlight=slc9a9" target="_blank">SLC9a9</a></span></td>
+    <td><span class="hel">ADHD associated</span></td>
+  </tr>
+  <tr>
+    <td> <span class="hel"><a href="https://omim.org/entry/607702?search=TCIM&highlight=tcim" target="_blank">TCIM</a></span></td>
+    <td><span class="hel">cancer</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td> <span class="hel"><a href="https://omim.org/entry/605475?search=baiap2&highlight=baiap2" target="_blank">BAIAP2</a></span></td>
+    <td><span class="hel">cytoskeleton</span></td>
+  </tr>
+  <tr>
+    <td> <span class="hel"><a href="https://omim.org/entry/600526?search=mark2&highlight=mark2" target="_blank">MARK2</a></span></td>
+    <td><span class="hel">cytoskeleton</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel">ZNF639</span></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><span class="hel">c10orf76</span></td>
+    <td>&nbsp;</td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel">PH21a </span></td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><hr size="1" noshade></td>
+    <td>&nbsp;</td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><span class="hel"><strong>Genes of (some) interest</strong></span></td>
+    <td><span class="hel"><strong> to mike </strong></span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/193060?search=VIM&highlight=vim" target="_blank">VIM (vimentin)</a></span></td>
+    <td><span class="hel">IF protein </span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/125660?search=DES&highlight=des" target="_blank">DES (desmin-1/2)</a></span></td>
+    <td><span class="hel">IF protein (muscle)</span></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/608815?search=EFHC1&highlight=efhc1" target="_blank">EFHC1</a></span></td>
+    <td><span class="hel">cilia</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/617880?search=POC5&highlight=poc5" target="_blank">POC5</a></span></td>
+    <td><span class="hel">cilia / centrioles</span></td>
+  </tr>
+  <tr>
+    <td><span class="hel"><a href="https://omim.org/entry/604249?search=RTN3&highlight=rtn3" target="_blank">RTN3 (reticulon 3)</a></span></td>
+    <td><span class="hel">ER protein</span></td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td><span class="hel"><a href="https://omim.org/entry/605078?search=TARDBP&highlight=tardbp" target="_blank">TARDBP (TDP43)</a></span></td>
+    <td><span class="hel">chaperone / DNA</span></td>
+  </tr>
+  <tr>
+    <td><span class="hel">14-3-3 proteins</span></td>
+    <td>&nbsp;</td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+    <td bgcolor="#999999">&nbsp;</td>
+    <td>&nbsp;</td>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+<table width="760" border="0" cellpadding="0" cellspacing="0">
+    <tr>
+<hr size="1" noshade="noshade"></td>
+  </tr>
+</table>
+</body>
+</html>

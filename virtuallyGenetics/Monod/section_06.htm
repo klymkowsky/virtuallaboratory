@@ -1,0 +1,192 @@
+<%@ page language="java" contentType="text/html" %>
+<%@ include file="/securityNoLog.jsp" %>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<style><!--
+			font { font-size: 10pt; font-family: verdana, arial, helvetica, sans-serif }
+			h1 { color: #0000FF; font-style: italic; font-size: 18pt; font-family: verdana, arial, helvetica, sans-serif }
+			h2 { color: #0066FF; font-size: 14pt; font-family: verdana, arial, helvetica, sans-serif }
+			ol { font-size: 11pt; font-family: verdana, arial, helvetica, sans-serif }
+			p { font-size: 11pt; font-family: verdana, arial, helvetica, sans-serif }
+			td { font-size: 11pt; font-family: verdana, arial, helvetica, sans-serif }
+			ul { font-size: 11pt; font-family: verdana, arial, helvetica, sans-serif }-->
+		</style>
+<style type="text/css">
+   <!--
+   a:link {  text-decoration: none}
+   a:visited {  text-decoration: none}
+   a:active {  text-decoration: none}
+   a:hover {  text-decoration: bold}
+   -->
+   </style>
+<title>Analyzing lac mutations</title>
+<script language="JavaScript"></script>
+<script language="JavaScript" src="scripts/behActions.js"></script>
+<script language="JavaScript" src="scripts/behCourseBuilder.js"></script>
+<script language="JavaScript" src="scripts/interactionClass.js"></script>
+<script language="JavaScript" src="scripts/elemInptClass.js"></script>
+</head>
+
+
+
+
+
+
+
+<body onLoad="MM_initInteractions()" bgcolor="#FFFFFF">
+<h1>Are all lac- stains the same?</h1>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <p><font face="Arial, Helvetica, sans-serif">At this point, we do not know 
+        there there is only a single gene which, when mutated, leaves cells lac- 
+        or whether there are multiple genes that can be mutated to produce a lac- 
+        phenotype. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Since we know about &szlig;-galactosidase, 
+        an obvious first question is do the lac- strains make &szlig;-galactosidase 
+        in response to lactose?</font></p>
+    </td>
+  </tr>
+</table>
+<table width="600" border="0">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="600" height="320">
+  <param name=movie value="flash/PatchPlate.swf">
+  <param name=quality value=high>
+  <embed src="flash/PatchPlate.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="600" height="320">
+  </embed> 
+</object>
+<table width="600" border="0">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <p><font face="Arial, Helvetica, sans-serif">Are any of the lac- strains 
+        able to make &szlig;-galactosidase in the presence of IPTG? <br>
+      </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Those that do presumably have 
+        a normal forms of the &szlig;-galactosidase gene and all of the steps 
+        require</font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif">I 
+          thought that the presence of glucose suppressed lactose ulitilization 
+          and &szlig;-galactosidase expression -- why did we use glucose containing 
+          plates?</font></li>
+      </ul>
+<p><font face="Arial, Helvetica, sans-serif">In the course of their work, 
+        Monod <i>et al</i> identified a second lactose inducible gene - lactose 
+        permease.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">We can assay for the presence 
+        of active permease activity by incubating the cells with a radioactive 
+        form of galactoside. Only if the permease is active will the radioactive 
+        molecules be accumulated within the cells. </font></p>
+    </td>
+  </tr>
+</table>
+<table width="600" border="0">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="600" height="320">
+  <param name=movie value="flash/PermaseAssayLAC.swf">
+  <param name=quality value=high>
+  <embed src="flash/PermaseAssayLAC.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="600" height="320">
+  </embed> 
+</object> 
+<table width="600" border="0">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="516" height="46"><font face="Arial, Helvetica, sans-serif">Are 
+      any of the strains able to make lactose permease in the presence or IPTG? 
+      Those that do presumably have a normal lactose permease gene and the normal 
+      pathway that regulates lactose permease expression.</font></td>
+  </tr>
+</table>
+    
+<table width="600" border="0">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+      
+  <tr> 
+    <td height="62"> 
+      <p><font face="Arial, Helvetica, sans-serif">We now have three possible 
+        lac- stains. </font></p>
+      <ul>
+        <li><font face="Arial, Helvetica, sans-serif"><b>lacR</b>: do not make 
+          either &szlig;-galactosidase or lactose permease in the presence of 
+          lactose or IPTG.</font></li>
+        <li><font face="Arial, Helvetica, sans-serif"><b>lacY</b>: make &szlig;-galatosidase, 
+          but not lactose permease in the presence of lactose or IPTG.</font></li>
+        <li><font face="Arial, Helvetica, sans-serif"><b>lacZ</b>: make lactose 
+          permease, but not &szlig;-galactosidase in the presence of lactose or 
+          IPTG.</font></li>
+      </ul>
+      <blockquote> 
+        <blockquote>&nbsp;</blockquote>
+      </blockquote>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td>
+          <blockquote>
+            
+        <p><font face="Arial, Helvetica, sans-serif">I</font><font face="Arial, Helvetica, sans-serif">t 
+          is likely that <b>lacR</b> mutations are due to the presence of a single 
+          mutation, although we could image the phenotype is due to two or more 
+          independent mutations. </font></p>
+          </blockquote>
+      <blockquote> 
+        <blockquote> 
+          <p><font face="Arial, Helvetica, sans-serif"><b>lacY</b> mutations are 
+            likely to be in the lactose permease, but not in the gene(s) involved 
+            in the lactose induced gene expression or the &szlig;-galactosidase 
+            gene.</font></p>
+          <p><font face="Arial, Helvetica, sans-serif"><b>lacZ</b> mutations are 
+            likely to be in the &szlig;-galactosidase gene, but not in the gene(s) 
+            involved in the lactose induced gene expression or the lactose permease 
+            gene.</font></p>
+              
+        </blockquote>
+</blockquote>
+</td>
+      </tr>
+    </table>
+    <table width="660" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="273" height="22"><p><font size="-2" face="Arial, Helvetica, sans-serif">revised 9 July 2003</font></p></td>
+        <td width="17" height="22">&nbsp;</td>
+        <td width="296" height="22"><div align="right"><b><a href="section_05.htm"><img src="../../images/ArrowLEFT.GIF" alt="" width="36" height="36"></a>|<a href="#top"><img src="../../images/ArrowUP.GIF" alt="" width="36" height="36" border="0"></a>|<a href="section_07.htm"><img src="../../images/ArrowRIGHT.gif" alt="" width="36" height="36" border="0"></a></b></div></td>
+      </tr>
+</table>
+</BODY>
+
+
+
+</html>

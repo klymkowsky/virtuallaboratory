@@ -1,0 +1,206 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+<head>
+<style><!--
+			font { font-size: 10pt; font-family: verdana, arial, helvetica, sans-serif }
+			h1 { color: #0000FF; font-style: italic; font-size: 18pt; font-family: verdana, arial, helvetica, sans-serif }
+			h2 { color: #0066FF; font-size: 14pt; font-family: verdana, arial, helvetica, sans-serif }
+			ol { font-size: 11pt; font-family: verdana, arial, helvetica, sans-serif }
+			p { font-size: 11pt; font-family: verdana, arial, helvetica, sans-serif }
+			td { font-size: 11pt; font-family: verdana, arial, helvetica, sans-serif }
+			ul { font-size: 11pt; font-family: verdana, arial, helvetica, sans-serif }-->
+		</style>
+<style type="text/css">
+   <!--
+   a:link {  text-decoration: none}
+   a:visited {  text-decoration: none}
+   a:active {  text-decoration: none}
+   a:hover {  text-decoration: bold}
+   -->
+   </style>
+<title>the operon</title>
+<script language="JavaScript"></script>
+<script language="JavaScript" src="scripts/behActions.js"></script>
+<script language="JavaScript" src="scripts/behCourseBuilder.js"></script>
+<script language="JavaScript" src="scripts/interactionClass.js"></script>
+<script language="JavaScript" src="scripts/elemInptClass.js"></script>
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<body bgcolor="#FFFFFF" onLoad="MM_initInteractions()">
+<h1> Assembling the lac operon</h1>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="547"> 
+      <h2><font face="Arial, Helvetica, sans-serif">The types of rob- mutations</font></h2>
+      <p><font face="Arial, Helvetica, sans-serif">Our genetic analysis indicates 
+        that rob- mutations map to <b>lacI</b> and <b>lacO</b>.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">The lacI gene, encodes the 
+        lac repressor. O stands for &quot;operator&quot; and corresponds to the 
+        sequence of DNA to which the lac repressor binds. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">When lac repressor is bound 
+        to O, expression of both lactose permease (lacY) and &szlig;-galactosidase 
+        (lacZ) is inhibited.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif">A rob- phenotype occurs if 
+        lacI is mutated such that the lac repressor can no longer bind to the 
+        operator <b>OR</b> when there is a mutation in lacO so that it no longer 
+        can bind to the lacI protein. </font></p>
+    </td>
+  </tr>
+</table>
+<table width="600" border="0" cellpadding="0">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td width="522"> 
+      <h2><font face="Arial, Helvetica, sans-serif">The types of lac- mutations</font></h2>
+      <p><font face="Arial, Helvetica, sans-serif">Lac- mutations map to four 
+        different positions along the chromosome. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">The most common are mutations 
+        that inactivate either the &szlig;-galactosidase (<b>lacZ</b>) or lactose 
+        permease (<b>lacY</b>) genes, but not both. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">There are also mutations that 
+        block the synthesis of both gene products. These map to a small region 
+        known as the promoter (<b>lacP</b>). </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">Finally, there are mutations 
+        that map to lacI. These mutations leave the lac repressor able to bind 
+        to the operator, but abolishes its ability to bind to lactose affectors 
+        (<i>e.g</i>. IPTG and allolactone). </font></p>
+      <p><font face="Arial, Helvetica, sans-serif">So even in the presence of 
+        lactose, the repressor is still repressing. </font></p>
+    </td>
+  </tr>
+</table>
+<table width="600" border="0" cellpadding="0">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td>
+      <div align="center"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=5,0,0,0" width="550" height="200">
+          <param name=movie value="flash/lacMutations.swf">
+          <param name=quality value=high>
+          <embed src="flash/lacMutations.swf" quality=high pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash" type="application/x-shockwave-flash" width="550" height="200">
+          </embed> 
+        </object></div>
+    </td>
+  </tr>
+</table>
+<table width="600" border="0" cellpadding="0">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="548"> <interaction name="MultCh_Radios02" object="G02" template="010_Multiple Choice/020_MultCh_Radios_03.agt" includesrc="interactionClass.js,elemInptClass.js"> 
+      <div name="G02Layer">
+        <ul>
+          <li><font face="Arial, Helvetica, sans-serif"><span name="G01question">Take 
+            a strain with a mutation in lacI that is lac-. Now generate new mutations 
+            that make this strain rob-. Where would you expect such mutations to map?</span></font> 
+            </li>
+          </ul>
+        </div>
+      <script language="JavaScript">
+<!--
+  // Copyright 1998,1999 Macromedia, Inc. All rights reserved.
+  function newG02() {
+    G02 = new MM_interaction('G02',1,0,0,null,0,0,0,'','','c','',0);
+    G02.add('inpt','choice1',0,1,null,0);
+    G02.add('inpt','choice2',0,1,null,0);
+    G02.add('inpt','choice3',0,1,null,0);
+    G02.add('inpt','choice4',0,1,null,0);
+    G02.init();
+    G02.am('segm','Segment: Correctness_',1,0);
+    G02.am('cond','answer1_','G02.e[\'choice1\'].selected == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'A mutation is lacZ would probably abolish all beta-galactosidase activity.  You cannot be rob- without beta-galactosidase.\')','');
+    G02.am('end');
+    G02.am('cond','answer2_','G02.e[\'choice2\'].selected == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'A mutation in lacY would probably not alter lacZ expression, particularly if the lac repressor was already insensitive to lactose.\')','');
+    G02.am('end');
+    G02.am('cond','answer3_','G02.e[\'choice3\'].selected == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'CORRECT A mutation in lacO that abolished repressor binding would be dominant to such a lacI mutation.  The cells would be rob-.\')','');
+    G02.am('end');
+    G02.am('cond','answer4_','G02.e[\'choice4\'].selected == true',0);
+    G02.am('actn','Popup Message','MM_popupMsg(\'No, mutations in the promoter are likely to abolish lacZ expression altogether.\')','');
+    G02.am('end');
+  }
+  if (window.newG02 == null) window.newG02 = newG02;
+  if (!window.MM_initIntFns) window.MM_initIntFns = ''; window.MM_initIntFns += 'newG02();';
+//-->
+</script>
+      <cbi-select object="G02"></interaction> </td>
+  </tr>
+</table>
+<table width="600" border="0" cellpadding="0">
+  <tr> 
+    <td> 
+      <hr>
+    </td>
+  </tr>
+</table>
+<table width="660" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="273" height="22"><p><font size="-2" face="Arial, Helvetica, sans-serif">revised 9 July 2003</font></p></td>
+    <td width="17" height="22">&nbsp;</td>
+    <td width="296" height="22"><div align="right"><b><a href="section_11.htm"><img src="../../images/ArrowLEFT.GIF" alt="" width="36" height="36"></a>|<a href="#top"><img src="../../images/ArrowUP.GIF" alt="" width="36" height="36" border="0"></a>|<a href="section_13.htm"><img src="../../images/ArrowRIGHT.gif" alt="" width="36" height="36" border="0"></a></b></div></td>
+  </tr>
+</table>
+</BODY>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</HTML>

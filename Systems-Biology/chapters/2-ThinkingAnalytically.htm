@@ -1,0 +1,260 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="generator" content="HTML Tidy for Linux (vers 25 March 2009), see www.w3.org" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="keywords" content="free on-line biology text, interactive molecular biology, interactive text, biology on-line" />
+<meta name="" content="free on-line biology, molecular biology, text" />
+<meta name="Description" content="Interactive Introductory / Foundational Evolution and Molecular Biology" />
+<meta name="Keywords" content="Biofundamentals, College-level, Foundational concepts, Klymkowsky, Evolution, Molecular Biology, Cell Biology, Interactive" />
+<meta name="GENERATOR" content="Mozilla/4.75 (Macintosh; U; PPC) [Netscape]" />
+<title>Thinking Functionally - Systems Biology @virtuallaboratory.colorado.edu</title>
+
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+a:link {
+        text-decoration: none;
+        color: #0000FF;
+}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: underline}
+.style1 {
+        color: #990000;
+        font-weight: bold;
+}
+.style5 {
+        color: #CCCCCC;
+        font-size: 14px;
+}
+.style6 {color: #FFFFFF}
+body,td,th {
+        font-family: Arial, Helvetica, sans-serif;
+}
+.style11 {font-size: x-small}
+.style12 {color: #FFFFFF; font-weight: bold; }
+.style13 {
+        color: #990033;
+        font-weight: bold;
+}
+.style14 {font-size: xx-small}
+.style15 {font-family: Optima}
+.style18 {color: #000000}
+.style15 {
+        font-family: Arial, Helvetica, sans-serif, Optima;
+}
+.style15 .style15 {
+        font-family: optima;
+}
+.style15 .style15 {
+        font-family: Arial, Helvetica, sans-serif, Optima;
+}
+.whoe {
+        color: #FFF;
+}
+.white {
+        color: #FFF;
+}
+.white {
+        color: #FFF;
+}
+-->
+/*]]>*/
+</style>
+
+<style type="text/css">
+/*<![CDATA[*/
+ body {
+  background-color: #FCFDFF;
+  color: #000000;
+ }
+ :visited { color: #0066FF }
+ :active { color: #0066FF }
+ div.c14 {font-size: 64%; text-align: left}
+ div.c13 {text-align: left}
+ p.c12 {text-align: left}
+ td.c11 {background-color: #666666}
+ p.c10 {text-align: center}
+ table.c9 {background-color: #CCCCCC}
+ td.c8 {background-color: #0000FF}
+ td.c7 {background-color: #FFFFFF}
+ td.c6 {background-color: #990000}
+ div.c5 {text-align: center}
+ span.c4 {color: #990000}
+ p.c3 {font-family: Arial, Helvetica, sans-serif}
+ div.c2 {text-align: right}
+ span.c1 {font-family: Arial, Helvetica, sans-serif}
+/*]]>*/
+</style>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+</head>
+<body>
+<table width="720" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="634"><font face="Arial, Helvetica, sans-serif"><strong>2: Thinking analytically</strong><b><font color="#006600" face="Arial, Helvetica, sans-serif"><a name="top" id="top"></a></font><font face="Arial, Helvetica, sans-serif" size="-1"><br />
+    </font></b></font></td>
+    <td width="37"><font face="Arial, Helvetica, sans-serif"><b>
+      <div align="right"><a href="1-Preface.htm"><img src="../../BioFun-Support/AllGraphics/ArrowLEFT.GIF" alt="arrow" width="24" height="24" border="0" /></a></div>
+    </b></font></td>
+    <td width="25"><div align="right"><a href="#bottom" target="_self"><font face="Arial, Helvetica, sans-serif"><b><img src="../../BioFun-Support/AllGraphics/ArrowDOWN.GIF" width="24" height="24" alt="arrow down"></b></font></a></div></td>
+    <td width="24"><a href="3-BacterialChemotaxis.htm" target="_self"><img src="../../BioFun-Support/AllGraphics/ArrowRIGHT.gif" width="24" height="24" alt="arrow next" /></a></td>
+    <table width="700" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><hr size="1" noshade="noshade" /></td>
+      </tr>
+    </table>
+  </tr>
+</table>
+
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><p>To think and talk about systems biology we are going to have to get comfortable with a number of terms, many of them mathematical. The first is one that we already introduced at the end of the previous reading when we talked about the  probability (<strong>p</strong>) of a <em>H. saltator</em> worker switching from infertile to fertile as a &quot;function&quot; of population size (<strong>n</strong>) or <strong>p</strong> = <em><strong>f</strong></em>(<strong>n</strong>). </p>
+      <p>What does this mean?</p>
+      <p>It means that there is a reproducible and quantitative relationship between the probability of fertility conversion from worker to queen (we will assume that the probability  of a queen switching from fertile to infertile is zero, so we will ignore it) per unit time and population size. We should be able to make a drawing (a graph) of this relationship. </p>
+      <p>It does not (necessarily) mean that we will be able to predict which worker will, during any particular time period, progress to fertility, rather we will be able to predict the likihood that one out the population of workers   will.      The behavior of the individuals is referred to as stochastic, which means it is determined by random event acting on a system - the fertility transition function for the population, however, is characterize by definite  probability. </p>
+    <p>This is very much like radioactive decay of atoms, we know the probability of decay of the population of atoms, but we do not know (and it appears we cannot theoretically know) which atom will decay next. </p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><hr width="80%" size="1" noshade></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="618"><p><strong>A minor diversion on the types of interactions between objects: </strong></p>
+    <p>We can think generally about how objects within a system interact. In some cases the interactions are deterministic, which means that the outcome of the interaction is completely predictable. </p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="389"><p>Take, for example, this video of the behavior of billiard balls [→]. The system in which these objects (the billiard balls) interact is the table; the  objects interact with one another and the table's surface and edges. </p>
+    <p>At the start, the system is perturbed - a force is applied to the white ball. Knowing the law of   conservation of momentum,  the elasticity of the balls and the system edges, and the friction between balls and table surface, we can predict the position of each ball at any time into the future. The system is deterministic. </p></td>
+    <td width="10">&nbsp;</td>
+    <td width="321"><iframe width="340" height="240" src="http://www.youtube.com/embed/lr9oSJR_5tY" frameborder="0" allowfullscreen></iframe></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="97"><p><img src="../images/Brownian.gif" width="93" height="70" alt="brownian motion"></p></td>
+    <td width="10">&nbsp;</td>
+    <td width="613">But not all interactions,  particularly those at the molecular level, have deterministic outcomes. Molecular level objects are subject to many  collisions per unit time, and these collisions are effectively random, so how a molecule moves, as well as the   stability of intermolecular interactions, and whether a reaction occurs or not are therefore probabilistic.</td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="618"><p>Perhaps the most familar of these behaviors is Brownian motion, the random jigggling of microscopic particles. Einstein use Brownian motion to deduce the existance of molecules [→].   </p>
+    <p>While the exact behavior of a particular particle is unpredictable it is, nevertheless, lawful. Given a large enough number of particles, we can produce a highly accurate functional relationship between time and how far the average particle moves (the diffusion equations [<a href="http://en.wikipedia.org/wiki/Diffusion_equation" target="_blank">link</a>]). </p></td>
+    <td width="10">&nbsp;</td>
+    <td width="93"><iframe width="340" height="190" src="http://www.youtube.com/embed/nrUBPO6zZ40" frameborder="0" allowfullscreen></iframe></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><p> Such processes are known as stochastic and impact the behavior of biological systems from the cellular to the supraorganismic [<a href="http://pbsb.med.cornell.edu/pdfs/non-genetic_individuality.pdf" target="_blank">Spudich &amp; Koshland, 1976</a>][<a href="http://www.ncbi.nlm.nih.gov/pubmed/20514130" target="_blank">Kifoil et al., 2009</a>][Lynch, 2005].</p>
+      <p>A classic macroscopic example of a stochastic process (similar  to diffusion) is <a href="http://virtuallaboratory.colorado.edu/Biofundamentals-2012/lectureNotes-Revision/Topic1H_Evo.htm" target="_blank">genetic drift</a>. Quantititive (that is equation-based) analyzes can describe the general behavior of populations, even though any particularly population will be unique. </p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><hr size="1" noshade></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><p><strong>Back to the ants: </strong>So the question is, what does <strong>p</strong> = <em><strong>f</strong></em>(<strong>n</strong>)  look like? </p>
+      <p>Because it is a probablity, <strong>p</strong> must be a number between 0 (never  happens) and 1 (always happens). </p>
+      <p>Alternatively, we could    make  prediction based on some more or less simple assumptions. For example, if n = 1 then there are no  inhibitory interactions between workers, so <strong>p</strong> would be expected to equal its maximum possible value - let us say for the sake of argument that p = 1 when n = 1. That means that the one worker will transform into a fertile queen. </p>
+      <p>We also know that in the absence of a queen, there is a real probability that some workers will be transformed into queens, so that as n increases p will decrease, and approach some number, greater than 0. </p>
+      <p>In reality the system is complicated by the fact that once a worker transforms into a fertile queen, it will inhibit other workers from a similar transformation, p will decrease. In fact, this means that p is a function of both the number of workers AND the number of queens in the population. </p>
+      <p>TO GO FURTHER, we will need to test how well our simple model of the system captures the the poulation's actual behavior, we will need some actual data. </p>
+      <p>One approach would be for you to set up a number of colonies, perhaps distinct colonies with 2, 10, 30, or 60 individuals, and then count the number of  workers had become fertile per unit time, assuming that you had a non-destructive method for determining fertility. Since the process is stochastic, you might well want to look at multiple colonies of each size. <br>
+        <br>
+        We could then analyze the data we collected in terms of the average number of transformed workers as a percentage of population size and the calculate the standard deviation between different experiments. This, of course, assumes that different colonies are actually made up of identical workers (which may not be true).</p>
+    <p>For example, in a colony n=1, and if one worker becomes fertile, then the p = 1. In a population of 10, if one worker becomes fertile (1/10) then p = 0.1, similarly if 2 workers became fertile in a populations of 30, then p = 2/30 or 0.067 [This could feed into data beSocratic activity]. </p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><hr size="1" noshade></td>
+  </tr>
+</table>
+<table class="c9" width="720" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td class="c6" width="80"><div class="c5">
+      <p><span class="white">Questions to answer</span><br />
+      </p>
+    </div></td>
+    <td class="c7" width="640"><span class="c1"> </span>
+      <ul>
+        <li><span class="style15">How would design an experiment to generate the data you need to define the <strong>p</strong> = <em><strong>f</strong></em>(<strong>n</strong>) empirically? </span> What might you expect the graph of the function to look like? </li>
+        <li>What  types of experimental difficulties would you anticipate that would complicate  the ant experiment? </li>
+        <li>How would you plot the data from your experimental analysis? Would you connect the dots or draw a &quot;best fit&quot; curve? [This could feed into data beSocratic activity]. </li>
+      </ul></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><hr size="1" noshade></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><p><strong>A statistical aside: Means and standard deviations (and plotting them on a graph). </strong></p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><hr size="1" noshade></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="596"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="75"><p><a href="https://solarsystem.colorado.edu/conceptInventories/external/bioliteracy.php" target="_blank"><img src="../../BioFun-Support/AllGraphics/eyeblnk1.gif" alt="blink" width="53" height="31" border="0" /></a><br>
+          <a name="bottom"></a></p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p></td>
+        <td width="645"><p>data graphing (means and standard deviations) </p></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<hr size="1" noshade="noshade" /></td>
+</tr>
+</table>
+
+<table width="720" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="36">
+<div class="c13"><a href="#TOP"><img src="../../BioFun-Support/AllGraphics/ArrowUP.GIF" width="24" height="24" alt="arrow up" /></a></div>
+</td>
+<td width="635">
+<div class="c14">Use <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank"><strong>Wikipedia</strong></a> to look up concepts or<a href="http://bionumbers.hms.harvard.edu" target="_blank"> B10NUMB3R5</a> to look up numbers |
+  <!-- #BeginDate format:En2 -->
+  <!-- #BeginDate format:En2 -->22-May-2013<!-- #EndDate -->
+<!-- #EndDate -->
+ <!-- #EndDate --></div>
+</td>
+<td width="29">
+<div class="c2"><a href="3-BacterialChemotaxis.htm" target="_self"><img src="../../BioFun-Support/AllGraphics/ArrowRIGHT.gif" width="24" height="24" alt="arrow next" /></a></div>
+</td>
+</tr>
+</table>
+</body>
+</html>

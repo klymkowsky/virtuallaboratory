@@ -1,0 +1,56 @@
+<HTML>
+
+<HEAD>
+
+<TITLE>virtuallyBiology&copy;-Phage Titer</TITLE>
+
+</HEAD>
+
+<BODY bgcolor="#FFFFFF">
+<!-- URL's used in the movie--> <!-- text used in the movie--> <!--t Absorbance Temperature Enter a time o C t Log Base 2 of Absorbance Elapsed Time in Minutes Log  base 2 of Absorbance 2 1 0 -1 -2 -3 -4 -5 -6 -7 -8 -9 -10 -11 -12 -13 -14 0 30 60 90 120 180 240 300 330 360 420 480 --> 
+<table width="680" border="0" cellpadding="1">
+  <tr> 
+    <td> 
+      <p><font color="#FF0033"><b><font color="#666666">T-even phage behave differently 
+        from many other phage, in that there is a strong &quot;lysis inhibition&quot; 
+        associated with infection by multiple phage. </font></b></font></p>
+      <p><font color="#666666"><b>This has an effect on plaque morphology - wild 
+        type, r+ strains produce plaques with &quot;fuzzy&quot; boundaries. Why? 
+        because at the edges of the plaque, many bacteria are infected by multiple 
+        phage, which inhibits their lysis. </b></font></p>
+      <p><font color="#666666"><b>The infected cell still dies, and virions are 
+        still produced, but lysis does not occur efficiently, and when it does 
+        occur can take quite some time.</b></font></p>
+      <p><font color="#666666"><b>This lysis inhibition is eliminated by mutations 
+        designated &quot;r&quot;. Mutations in the &quot;r&quot; genes can be 
+        readily identified through their effects on plaque morphology. r- mutant 
+        phage produce clear plaques that are larger and have sharp edges. </b></font></p>
+      <p><b><font color="#000000" face="Verdana, Arial, Helvetica, sans-serif">All 
+        of the T4 phage we are using in our experiments carry mutations in r. 
+        </font></b></p>
+      <p><b><font color="#666666">Seymour Benzer's analysis of mutations in the 
+        r region were critical to our understanding of the nature of genes. </font></b></p>
+    </td>
+    <td>
+      <p align="center"> graphic<br>
+        <img src="../../commonGraphics/Flashanim.gif" width="88" height="31"><br>
+        illustrating the difference between r+ and r- phage plaques</p>
+      </td>
+  </tr>
+</table>
+<table width="680" border="0" cellpadding="1">
+  <tr>
+    <td>
+      <p><b><a href="javascript:window.close();">close window</a></b> </p>
+    </td>
+    <td>
+      <p align="right"><b><a href="javascript:window.close();">close window</a></b> 
+      </p>
+    </td>
+  </tr>
+</table>
+<p><font color="#FF0033"><b> </b></font></p>
+</BODY>
+
+</HTML>
+

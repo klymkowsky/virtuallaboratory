@@ -1,0 +1,411 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="generator" content="HTML Tidy for Linux (vers 25 March 2009), see www.w3.org">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="keywords" content="free on-line biology text, interactive molecular biology, interactive text, biology on-line">
+<meta name="" content="free on-line biology, molecular biology, text">
+<meta name="Description" content="Interactive Introductory / Foundational Evolution and Molecular Biology">
+<meta name="Keywords" content="Biofundamentals, College-level, Foundational concepts, Klymkowsky, Evolution, Molecular Biology, Cell Biology, Interactive">
+<meta name="GENERATOR" content="Mozilla/4.75 (Macintosh; U; PPC) [Netscape]">
+<title>Thinking Functionally - Systems Biology @virtuallaboratory.colorado.edu</title>
+
+<style type="text/css">
+/*<![CDATA[*/
+<!--
+a:link {
+        text-decoration: none;
+        color: #0000FF;
+}
+a:visited {text-decoration: none}
+a:active {text-decoration: none}
+a:hover {text-decoration: underline}
+.style1 {
+        color: #990000;
+        font-weight: bold;
+}
+.style5 {
+        color: #CCCCCC;
+        font-size: 14px;
+}
+.style6 {color: #FFFFFF}
+body,td,th {
+        font-family: Arial, Helvetica, sans-serif;
+}
+.style11 {font-size: x-small}
+.style12 {color: #FFFFFF; font-weight: bold; }
+.style13 {
+        color: #990033;
+        font-weight: bold;
+}
+.style14 {font-size: xx-small}
+.style15 {font-family: Optima}
+.style18 {color: #000000}
+.style15 {
+        font-family: Arial, Helvetica, sans-serif, Optima;
+}
+.style15 .style15 {
+        font-family: optima;
+}
+.style15 .style15 {
+        font-family: Arial, Helvetica, sans-serif, Optima;
+}
+.whoe {
+        color: #FFF;
+}
+.white {
+        color: #FFF;
+}
+.white {
+        color: #FFF;
+}
+-->
+/*]]>*/
+</style>
+
+<style type="text/css">
+/*<![CDATA[*/
+ body {
+  background-color: #FCFDFF;
+  color: #000000;
+ }
+ :visited { color: #0066FF }
+ :active { color: #0066FF }
+ div.c14 {font-size: 64%; text-align: left}
+ div.c13 {text-align: left}
+ p.c12 {text-align: left}
+ td.c11 {background-color: #666666}
+ p.c10 {text-align: center}
+ table.c9 {background-color: #CCCCCC}
+ td.c8 {background-color: #0000FF}
+ td.c7 {background-color: #FFFFFF}
+ td.c6 {background-color: #990000}
+ div.c5 {text-align: center}
+ span.c4 {color: #990000}
+ p.c3 {font-family: Arial, Helvetica, sans-serif}
+ div.c2 {text-align: right}
+ span.c1 {font-family: Arial, Helvetica, sans-serif}
+/*]]>*/
+.red {
+	color: #F00;
+}
+</style>
+<script src="../../Scripts/swfobject_modified.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+</head>
+<body>
+<table width="720" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="640"><font face="Arial, Helvetica, sans-serif"><strong>3: Bacterial Chemotaxis: a stochastic simple complex  system</strong><b><font color="#006600" face="Arial, Helvetica, sans-serif"><a name="top" id="top"></a></font><font face="Arial, Helvetica, sans-serif" size="-1"><br>
+    </font></b></font></td>
+    <td width="31"><font face="Arial, Helvetica, sans-serif"><b>
+      <div align="right"><a href="2-ThinkingAnalytically.htm"><img src="../../BioFun-Support/AllGraphics/ArrowLEFT.GIF" alt="arrow" width="24" height="24" border="0"></a></div>
+    </b></font></td>
+    <td width="25"><div align="right"><a href="#bottom" target="_self"><font face="Arial, Helvetica, sans-serif"><b><img src="../../BioFun-Support/AllGraphics/ArrowDOWN.GIF" width="24" height="24" alt="arrow down"></b></font></a></div></td>
+    <td width="24"><a href="4-SocialBehaviors.htm" target="_self"><img src="../../BioFun-Support/AllGraphics/ArrowRIGHT.gif" alt="arrow" width="24" height="24" border="0"></a></td>
+    <table width="720" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td><hr size="1" noshade="noshade"></td>
+      </tr>
+    </table>
+  </tr>
+</table>
+
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><p>Clearly the reproductive behavior of<em> H. saltator</em> is complex. As organisms, ants are  extremely complex &quot;objects&quot; and their interactions are complex as well.  In designing our ant experiments, it is not completely clear how we would get colonies that contained different numbers of workers. Would  it matter if they came from the same or different queens? Does it matter how long they spend in the presence (or absence) of a queen? Can I even &quot;grow up&quot; a colony of 60 individuals before one transforms into a queen? </p>
+      <p>Because of these complexities, we will often turn to &quot;simpler&quot; systems to understand basic behaviors, or at least to how to approach thinking about and analyzing such behaviors - but even the simplest of the biological processes is quite complicated. </p>
+      <p>In our case, our &quot;model&quot; system will be the bacterium <em>Escherichia coli</em> (<em>E. coli</em>) and, initially, its ability to swim toward nutrients and away from &quot;repellants&quot;, typically noxious chemicals.  </p>
+      <p>The basic mechanisms of this &quot;chemotaxis&quot; (chemical movement) involves the bacterium's flagella. A single <em>E. coli</em> cell has a number of flagella; these have the shape of long flexible fibers that are attached to a rotory motor. The motor is driven by hydrogen ion gradient established across the cell's plasma membrane. </p>
+      <p>The motor can turn in either a counterclockwise (CCW)- or a clockwise (CW) direction. When it turns CCW, the flagella bundles together to form an effective propellar;  the turning of this propeller moves the bacterium &quot;forward&quot;. </p>
+      <p>At various intervals, the flagellar motors reverse, and begin turning in a CW direction. When this happens, the flagellar bundle flies apart and bacterium tumbles (a process originally termed &quot;twiddling&quot;).  </p>
+    <p>After awhile the flagellar motors reverse again, back to  CCW  rotation, and the bacteria swims off in a new, more or less random direction. <br>
+      <br>
+      <span class="red">[beSocratic: At this point, you might that a moment to make a diagram (without looking it up on the web) about the components 
+that would be needed to build such a system.] </span><br>
+    </p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><p><a href="http://www.pdn.cam.ac.uk/groups/comp-cell/Big_bug.html" target="_blank"><img src="../images/bacterialChemotaxis.jpg" width="720" height="189" alt="bacterial chemotaxis"></a></p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="386" height="281"><p>A number of studies have been carried out to analyze the dynamics of the system. </p>
+    <p>One trick  is to adhere the cells to a cover slip through one of their flagella. Flagellar rotation then turns the cell  in one or the other direction. </p>
+    <p>It is then possible to follow rotation of the flagellar rotor directly, through a microscope. In their study, carried out in the absence of attractants and repellants, Berg &amp; Tedesco (<a href="http://www.ncbi.nlm.nih.gov/pubmed/1103143" target="_blank">1975</a>) found that the rate of rotation was similar in both the CW (twiddling) and the CCW (swimming) directions, and that flagellar motors switched from CW to CCW and CCW to CW with the same frequency, about once every 1.3 seconds.</p></td>
+    <td width="10">&nbsp;</td>
+    <td width="324"><a href="http://www.ncbi.nlm.nih.gov/pubmed/1103143" target="_blank"><img src="../images/Berg-Tedesco-1975.jpg" width="320" height="239" alt="Tedeso"></a></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><p>While each flagellar is located in a distinct region of the cell, all of the motors respond in a similar manner, suggesting that there is a global signaling systems controlling their rotational direction. </p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="360"><div align="center"><a href="http://www.ncbi.nlm.nih.gov/pubmed/1103143" target="_blank"><img src="../images/coli rotation cartoon.jpg" width="320" height="190" alt="coli rotation cartoon"></a></div></td>
+    <td width="360"><div align="center"><a href="http://www.ncbi.nlm.nih.gov/pubmed/1103143" target="_blank">
+      <iframe width="320" height="190" src="http://www.youtube.com/embed/4hexn-DtSt4" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+    </a></div></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><p>This type of behavior is fine if the bacteria have no where to go, they swim and twiddle and then swim off in another direction, and twiddle. Their final path is a random walk.</p>
+      <p>On the other hand, the addition of an attractant or a repellant changes things. </p>
+      <p>Berg &amp; Tedesco reported that the global addition of an attractant (1 mM α-methyl-DL-aspartic acid), suppressed twiddling and promoted swimming. That is the switch from  CCW to the CW rotation was inhibited. </p>
+    <p>In their experiment, there was no gradient, just a &quot;jump&quot; in the concentration. After  awhile, swimming stops and twiddling becomes the primary behavior, even though the attractant is still present. Eventually, the cells return to the same behavior that they displayed in the absence of attractant, equal periods of swimming and twiddling. </p></td>
+  </tr>
+</table>
+
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="353"><p>When there is a concentration gradient of attractant, rather than a sudden &quot;universal&quot; jump in attractant concentration, the behavior observed is different. There is no &quot;adaptation&quot;, but rather directed movement in the direction of higher attractant (or away from higher repellant). </p>
+      <p>  There type of movement is illustrated in this interactive applet [→]. Your cursor is releasing an attractant. You can see the transition from swimming to twiddling if you leave your cursor in one place for awhile.    </p>
+    <p>Clearly we can conclude that i) there is a mechanism by which the bacteria senses the presence of the attractant, ii) changes in attractant concentration, and iii) that this system must generate   a signal within the cell that alters the switch frequency of the flagellar motor.</p></td>
+    <td width="10">&nbsp;</td>
+    <td width="360"><object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="360" height="360" id="FlashID2" title="simple chemotaxis">
+      <param name="movie" value="../../BioFun-Support/labs/Adaptation/flash/simpletaxis.swf">
+      <param name="quality" value="high">
+      <param name="wmode" value="opaque">
+      <param name="swfversion" value="6.0.65.0">
+      <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+      <param name="expressinstall" value="../../Scripts/expressInstall.swf">
+      <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+      <!--[if !IE]>-->
+      <object type="application/x-shockwave-flash" data="../../BioFun-Support/labs/Adaptation/flash/simpletaxis.swf" width="360" height="360">
+        <!--<![endif]-->
+        <param name="quality" value="high">
+        <param name="wmode" value="opaque">
+        <param name="swfversion" value="6.0.65.0">
+        <param name="expressinstall" value="../../Scripts/expressInstall.swf">
+        <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+        <div>
+          <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+          <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33"></a></p>
+          </div>
+        <!--[if !IE]>-->
+        </object>
+      <!--<![endif]-->
+    </object></td>
+</tr>
+  <tr> </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><hr></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><p><strong>How does a bacteria sense a chemical gradient? </strong></p>
+      <p>This turns out not to be a simple as one might think ( it would be an interesting exercise if you made a list of  possible, physically plausible mechanisms). </p>
+      <p>We can sum up the qualities of the bacterial chemotactic system, in must be</p>
+      <ul>
+        <li><strong>Adaptive</strong>:  able to respond to attractants and repellants over a larger range of concentrations.</li>
+        <li><strong>Sensitive</strong>: able to detect small changes in molecular concentrations and turn them into modulate flagellar behavior</li>
+        <li><strong>Robust</strong>: able to maintain the appropriate chemotactic behavior under a range of conditions, in particularly the fact that because transcription, translation, and RNA and protein degradation are stochastic processes, and cells are small, there can be significant levels of variation (noise) in the levels of various proteins.      </li>
+      </ul>
+      <p>What  makes this a tricky problem is the size of the bacterial cell - normally no longer that 2 to 3 μm long, and the fact that it can detect small concentration gradients over a concentration range of five orders of magnitude.      </p>
+      <p>So does the cell recognize the differences in concentrations between one end of the cell to other? How can this be done? </p>
+    <p>Let us first get a feeling for the molecular nature of the problem. Assume that cell is located within a gradient of an attractant that changes from 0.0001 mM to 0.010 mM (a 10<sup>2</sup> fold change) over a 1 cm distance. How would you calculate the difference in the number of attractant molecules at the two ends of the cell?  [beSocratic activity]</p></td>
+  </tr>
+</table>
+<a href="http://www.pdn.cam.ac.uk/groups/comp-cell/Big_bug.html" target="_blank"><img src="../images/Goodsell-BrayWebSite.jpg" width="720" height="249" alt="Goodsell-cartoon">	</a>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="412"><p>In practice, the bacterial cell is too small and the gradients it typically experiences are too &quot;swallow&quot; to make direct detection of gradients possible. </p>
+      <p>Of course, you have already guessed that there must be some kind of receptor protein, probably located in the membrane of the cell, that binds  attractant molecule and begins a set of events that lead to changes in flagellar behavior (how else could it work?) [<a href="http://www.ncbi.nlm.nih.gov/pubmed/14970819" target="_blank">McAdams et al., 2004</a>].</p>
+      <p>There are a set of integral membrane receptor proteins, each &quot;tuned&quot; to bind to and respond to particular molecules. In <em>E. coli</em> there are receptors for aspartate (Tar), serine (Tsr), dipeptides (Tap), galactose (Trg) and molecular oxygen (Aer), among others <a href="http://eprints.maths.ox.ac.uk/726/1/259.pdf">Tindall et al., 2008a</a>; <a href="http://eprints.maths.ox.ac.uk/727/1/260.pdf">2008b</a></p></td>
+  </tr>
+</table>
+<a href="http://www.pdn.cam.ac.uk/groups/comp-cell/Big_bug.html" target="_blank"><img src="../images/chemotactic network.jpg" width="720" height="315" alt="chemotactic network"></a>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="557"><p>These receptor proteins typically polypeptide dimers that are clustered at the  ends of the cell. In the case of an attractant, when occupied, these receptor proteins are methylated at up to four specific glutamate residues by  CheR methyltransferase proteins (&quot;Che&quot; stands for chemotaxis).  </p>
+      <p>The membrane receptors form a complex with two other cytoplasmic proteins, a CheW dimer which acts primarily as an adaptor for the binding of CheA, a histidine kinase that (auto)phosphorylates CheA.  </p>
+      <p>The higher the degree of receptor methylation, the more active is the CheA enzyme, so the more phosphorylated CheA protein (Che-P) there is. </p>
+      <p> CheA-P can interact with, and transfer its phosphate group to either of  two  cytoplasmic proteins, CheY or CheB. CheY-P diffuses throughout the cytoplasm, and interacts with the cytoplasmic face of the flagellar motor, inducing CW  rotation, leading to tumbling.  When CheY-P is not bound, the motor rotates in the CCW direction - leading to forward swimming.</p>
+      <p>The level of Che-Y-P in the cell is a function of the rate of generation by  CheA-P and its dephoshorylation by the protein phosphotase protein, CheZ. </p>
+      <p>The second target of CheA-mediated phosphorylation is the demethylase CheB. Phosphorylated CheB (CheB-P) preferentially demethylates highly methylated receptor proteins, while CheR preferentially demethylates un-or hypomethylated receptor proteins.  </p>
+    <p>Finally, the binding of an attractant molecule to an attractant receptor protein reduces the activity of the receptor-CheW-CheA kinase complex, while repellant molecule binding to a repleant receptor increases CheA activity.</p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><p><strong>Threshold effects and responsiveness:</strong> <br>
+        <br>
+An obvious question that we have not addressed is, how many CheY-P molecules have to interact with the flagellar motor to cause a CCW to CW rotation switch? </p>
+    <p>This can be a tricky question to anwer within an intact organism, so various types of molecular biological tricks need to be used. </p>
+    <p>In the studies by Schart et al (<a href="http://www.pnas.org/content/95/1/201.full.pdf#page=1&view=FitH" target="_blank">1988</a>) they re-engineered the CheY protein.  Normally, the transfer of a phosphate from CheA-P to Asp-13 of CheY leads to the &quot;active&quot; form of CheY, which drives CW rotation.</p>
+    <p>They designed mutated form is CheY, by replacing Asp13 with an arginine (Y) residue and Tyr-106 with a tryptophan (W) residue to produce CheY<sup>YW</sup> which drives CW rotation in the absence of CheA phosphorylation. They replaced the endogenous (wild type) CheY gene with the gene encoding CheY<sup>YW</sup>. The expression of CheY<sup>YW</sup> is under the ontrol of a lactose responsible promoter, so it can be induced by IPTG - this enabled them to control the concentration of CheY<sup>YW</sup> in the cell. These cells also carried mutations that deleted CheA and CheZ, so their flagellar response should be totally dependent upon [CheY<sup>YW</sup>]. </p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="426"><p>One can image two distinct mechanisms by which CheY-P induces the CCW to CW rotation switch. One involves the binding of certain number of CheYP molecules acts to throw a switch - this model predicts a &quot;step-type&quot; function in which [CheY-P] relates to flagellar rotation. The second model is one in which the binding of CheY-P to the motor system alters the probability of a CWW or CW rotation; this would predict a a &quot;non-step&quot; type behavior of both rotation bias and reversal frequency. </p>
+    <p>We know that in the absense of CheY-P, the flagellar motor rotates in the CWW direction, so we can use the percentage of time the motor rotates CW (the CW bias) as a measure how CheY-P influences the motor direction. </p>
+    <p>You can predict the implications of these two models better if you draw out what you would expect CW bias to look like as a fuction of [CheY-P]. </p></td>
+    <td width="11">&nbsp;</td>
+    <td width="283"><a href="http://www.pnas.org/content/95/1/201.full.pdf#page=1&view=FitH" target="_blank"><img src="../images/Scharf-CheY rotation exp.jpg" width="283" height="380" alt="CheY** experiment"></a></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><p>After demonstrating that they could control [CheY<sup>YW</sup>], they measured the bias toward CW rotation as a function of [CheY<sup>YW</sup>].  Their observations suggest a probability rather than a strict threshold model.</p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><hr size="1" noshade></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="372"><p><strong>Thinking about the &quot;whole&quot; system: </strong></p>
+      <p>Of course, all of the proteins involved in chemotaxic system are encoded by genes. In <em>E. coli </em>are located within two operons each with its own promoter  [<a href="http://www.ncbi.nlm.nih.gov/pubmed/7045071" target="_blank">Parkinson &amp; Houts, 1982</a>][→]. <em>motA</em> and <em>motB</em> encode membrane proteins required for flagellar rotation, the roles of the others are described above. </p></td>
+    <td width="10">&nbsp;</td>
+    <td width="340"><a href="http://www.ncbi.nlm.nih.gov/pubmed/7045071http://www.ncbi.nlm.nih.gov/pubmed/7045071" target="_blank"><img src="../images/chemotasis-operon-coli.jpg" width="340" height="163" alt="chemotaxis operon" longdesc="http://www.ncbi.nlm.nih.gov/pubmed/7045071"></a></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><p>Deletions of specific genes produce either constituative CCW or CW flagellar rotation.</p>
+      <p>The operon organization of these genes provide a level of coordinated protein expression, but there are still issues of transcriptional and translational variation. For example, both initiation of transcription and translation are themselves stochastic processes. We we can expect to see variation (noise) in the levels of the proteins involved in the chemotactic system.</p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><p><strong>Getting more quantitative: </strong></p>
+    <p>We can also begin to express the interactions between between chemotactic components mathematically. </p>
+    <p>For example, the level of of CheA activity depends upon the extent of methylation of a receptor protein dimer (Rm).  Rm is a function of CheR activity (which methylates undermethylated receptor proteins), phosphorylated CheB (which demethylates methylated receptor proteins), and the level of receptor ligand, which in the case of an attractant, inhibits the level of CheA autophosphorylation. </p>
+    <p>The ligand binds to the receptor with a certain affinity, and the receptor may have different affinities for different ligands.  </p>
+    <p>The system as a whole controls the level of phosphorylated CheY, which in turn controls the rotation direction of the flagellar motor. A maximual level, CheY-P leads to CW rotation and tumbling, at minimal level, CWW rotation, swimming and no tumbling.<span class="red"> [<strong>Question</strong>: does more mathematical part go here]</span></p>
+    <p><strong>Adaptation: </strong></p>
+    <p>Perhaps the most complex feature of the chemotactic system is its ability to adapt to attractant and repullsant concentrations for a very wide range of concentration, over 100,000 fold (10<sup>5</sup>).  So what does this mean and how does it work? </p>
+    <p>The basic observation is that a particular concenration of ligand can, in a concentration jump experiment, produce a full response, that is, the completely suppression of tumbling, and that this full response can be seen over a wide range of concentrations. </p>
+    <p>The ligand-receptor binding interaction involves two reactions: the first is the interaction between the ligand (L) and the receptor (R). This can be represented by the equation L + R → LR, with LR being the form that mediates the chemotactic response of the cell. </p>
+    <p>The degree to which the LR complex exists is dependent upon the concentration of L or [L], the concentration of R [R], and the probability that a collision between L and R leads to the formation of the LR complex and the stability of that complex, which is related to both the strength of the LR interaction and the probablity that thermal collisions with other molecules, particularly water molecules, will knock them apart again. </p>
+    <p>At equilibrium (the point there is no longer a net change in [L], [R] or [LR], this relationship can be written as: </p>
+    <p align="center"><em>k</em><sub>on </sub>[R][L] =  k<sub>off</sub> [RL]    with the association constrant <em>K</em><sub>a</sub> defined as <em>k</em><sub>on</sub>/k<sub>off</sub> <br>
+      and the dissociation constant <em>K</em><sub>d</sub> defined as 1/<em>K</em><sub>a</sub><br>
+</p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="432"><p>So we must assume that at a particularly concentration of L with a specific concentration of R, a defined percentage of the receptors will be occupied by L.  At different concentrations of L, more or less of the R will be occupied. </p>
+      <p>However, it appears that we get full response to ligand at a wide range of concentrations -- how can this be? </p>
+    <p>It would appear that we have to reassess some of our assumptions. </p></td>
+    <td width="10">&nbsp;</td>
+    <td width="280"><img src="../images/ligand binding curve.jpg" width="280" height="221" alt="ligand binding"></td>
+  </tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td><p>One assumption that we have made is that R is a single entity, but that might not be true.</p>
+      <p>The R protein sits in the plasma membrane, where it will interact with other membrane molecules. In fact, the chemotactic receptors appear to be dimers. This opens the possibility that i) they could their binding of ligand molecular could be cooperative and ii) that it could be affected by interactions with neighboring (membrane) molecules. </p>
+      <p>But what about the single entity assumption? How can we change the behavior of  protein? Well, one obvious way would be post-translational modification. In fact, as noted in our description of the system (above), Receptor molecules are subject to histidine-methylation and demethylation. </p>
+      <p>It appears that each R polypeptide has up to four distinct histidine methylation sites, that can be modified through a reaction catalyzed by  CheR . This generates five different &quot;types&quot; of receptor, with from 0 to 4  sites methylated. While experimental data indicates that (at least in the case of those receptors studied), methylation does not alter ligand binding affinity, it does alter the activity of  CheA, as monitored by the concentration of phosphorylated CheY in the cell.  </p>
+    <p>This means that  very different concentrations of attractant (or repellant) can produce similar levels of CheY-P, apparently be producing  different levels of CheA activity    </p></td>
+  </tr>
+</table>
+<table width="720" border="0" cellpadding="0" cellspacing="0">
+  <tr>
+<td width="580">
+<hr size="1" noshade="noshade"></td>
+</tr>
+</table>
+<table class="c9" width="720" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td class="c6" width="80">
+<div class="c5">
+<p><span class="white">Questions to answer</span><br></p>
+</div>
+</td>
+<td class="c7" width="640"><span class="c1"> </span>
+  <ul>
+    <li>Draw out for yourself the interactions involved in the system, and predict how each component changes shortly after a &quot;jump&quot; in attractant concentration? </li>
+    <li>Given the map of the chemotatic system, provide a plausible explanation for the phenotypes of the cheA, CheY, CheB and cheZ deletion mutations. </li>
+    <li>How is the behavior of the system different when the organism is swimming in a gradient of a chemoattractant. </li>
+    <li>Describe how receptor modification &quot;turns&quot; the system's response to attractants and repellants?</li>
+    <li>How might receptor clustering influence the responsiveness of the system?</li>
+  </ul>
+</td>
+</tr>
+<tr>
+<td class="c8">
+<div class="c5"><span class="whoe1 white">Questions to ponder</span><br></div>
+</td>
+<td class="c7">
+<ul>
+<li><span class="style15">How would the chemotactic system change in the environmental temperature increased or decreased? </span></li>
+<li>Why would E. coli need an O<sub>2</sub> sensor? </li>
+</ul>
+</td>
+</tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+<tr>
+<td>
+<hr size="1" noshade="noshade"></td>
+</tr>
+</table>
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="596"><table width="100%" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="75"><p><a href="https://solarsystem.colorado.edu/conceptInventories/external/bioliteracy.php" target="_blank"><img src="../../BioFun-Support/AllGraphics/eyeblnk1.gif" alt="blink" width="53" height="31" border="0"></a><br>
+          <a name="bottom"></a></p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p></td>
+        <td width="645"><p>data graphing (chemotaxis #1) </p></td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+
+
+<table width="720" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+<td>
+<hr width="700" size="1"></td>
+</tr>
+</table>
+<table width="720" border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td width="25">
+<div class="c13"><a href="#TOP"><img src="../../BioFun-Support/AllGraphics/ArrowUP.GIF" width="24" height="24" alt="arrow up"></a></div>
+</td>
+<td width="670">
+<div class="c14">Use <a href="http://en.wikipedia.org/wiki/Main_Page" target="_blank"><strong>Wikipedia</strong></a> to look up concepts or<a href="http://bionumbers.hms.harvard.edu" target="_blank"> B10NUMB3R5</a> to look up numbers |
+  <!-- #BeginDate format:En2 -->
+  <!-- #BeginDate format:En2 -->12-Apr-2013<!-- #EndDate -->
+<!-- #EndDate -->
+ <!-- #EndDate --></div>
+</td>
+<td width="25">
+<div class="c2"><a href="4-SocialBehaviors.htm" target="_self"><img src="../../BioFun-Support/AllGraphics/ArrowRIGHT.gif" width="24" height="24" alt="arrow next"></a></div>
+</td>
+</tr>
+</table>
+<script type="text/javascript">
+swfobject.registerObject("FlashID2");
+</script>
+</body>
+</html>

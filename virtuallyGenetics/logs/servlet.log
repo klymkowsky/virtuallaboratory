@@ -1,0 +1,332 @@
+2003-06-03 10:21:25 - path="" :jsp: init
+2003-06-03 14:55:36 - path="" :jsp: init
+2003-06-05 04:37:21 - path="" :jsp: init
+2003-06-06 19:31:09 - path="" :jsp: init
+2003-06-06 19:31:10 - path="" :jsp: init
+2003-06-06 22:49:38 - path="" :jsp: init
+2003-06-07 03:53:07 - path="" :jsp: init
+2003-06-08 03:57:08 - path="" :jsp: init
+2003-06-08 07:21:22 - path="" :jsp: init
+2003-06-08 19:29:03 - path="" :jsp: init
+2003-06-14 22:40:29 - path="" :jsp: init
+2003-06-18 17:35:07 - path="" :jsp: init
+2003-06-18 17:35:07 - path="" :arahn.vg.VGEngine: init
+2003-06-18 17:35:07 - path="" :Saving organisms to /temp/
+2003-06-18 22:37:13 - path="" :jsp: init
+2003-06-18 22:47:34 - path="" :jsp: init
+2003-06-18 22:47:35 - path="" :jsp: init
+2003-06-18 22:48:14 - path="" :jsp: init
+2003-06-18 22:48:16 - path="" :jsp: init
+2003-06-18 22:48:40 - path="" :jsp: init
+2003-06-18 22:51:02 - path="" :jsp: init
+2003-06-18 22:51:04 - path="" :jsp: init
+2003-06-18 22:51:16 - path="" :jsp: init
+2003-06-18 22:51:17 - path="" :jsp: init
+2003-06-18 22:51:47 - path="" :jsp: init
+2003-06-18 22:51:48 - path="" :jsp: init
+2003-06-19 11:02:50 - path="" :jsp: init
+2003-06-19 11:20:36 - path="" :orgName=Pea&
+2003-06-19 11:20:36 - path="" :Loading Failed because java.io.EOFException
+2003-06-19 11:20:36 - path="" :Exception thrown - java.io.EOFException
+	at java.io.DataInputStream.readFully(DataInputStream.java:158)
+	at java.io.ObjectInputStream.readFully(ObjectInputStream.java:2071)
+	at java.io.ObjectInputStream.inputClassFields(ObjectInputStream.java:2252)
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:519)
+	at java.io.ObjectInputStream.inputObject(ObjectInputStream.java:1412)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:386)
+	at java.io.ObjectInputStream.inputClassFields(ObjectInputStream.java:2263)
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:519)
+	at java.io.ObjectInputStream.inputObject(ObjectInputStream.java:1412)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:386)
+	at java.io.ObjectInputStream.inputArray(ObjectInputStream.java:1142)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:374)
+	at java.io.ObjectInputStream.inputClassFields(ObjectInputStream.java:2263)
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:519)
+	at java.io.ObjectInputStream.inputObject(ObjectInputStream.java:1412)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:386)
+	at java.io.ObjectInputStream.inputClassFields(ObjectInputStream.java:2263)
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:519)
+	at arahn.vg.DNA.readObject(DNA.java:55)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at java.io.ObjectInputStream.invokeObjectReader(ObjectInputStream.java:2214)
+	at java.io.ObjectInputStream.inputObject(ObjectInputStream.java:1411)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:386)
+	at java.io.ObjectInputStream.inputArray(ObjectInputStream.java:1142)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:374)
+	at java.io.ObjectInputStream.inputClassFields(ObjectInputStream.java:2263)
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:519)
+	at java.io.ObjectInputStream.inputObject(ObjectInputStream.java:1412)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:386)
+	at java.io.ObjectInputStream.inputClassFields(ObjectInputStream.java:2263)
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:519)
+	at java.io.ObjectInputStream.inputObject(ObjectInputStream.java:1412)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:386)
+	at java.io.ObjectInputStream.inputClassFields(ObjectInputStream.java:2263)
+	at java.io.ObjectInputStream.defaultReadObject(ObjectInputStream.java:519)
+	at java.io.ObjectInputStream.inputObject(ObjectInputStream.java:1412)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:386)
+	at java.io.ObjectInputStream.readObject(ObjectInputStream.java:236)
+	at arahn.vg.VGEngine.load2(VGEngine.java:186)
+	at arahn.vg.VGEngine.start(VGEngine.java:144)
+	at arahn.vg.VGEngine.executeCommand(VGEngine.java:224)
+	at arahn.vg.VGEngine.doPost(VGEngine.java:77)
+	at arahn.vg.VGEngine.doGet(VGEngine.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.tomcat.core.ServletWrapper.doService(ServletWrapper.java:405)
+	at org.apache.tomcat.core.Handler.service(Handler.java:287)
+	at org.apache.tomcat.core.ServletWrapper.service(ServletWrapper.java:372)
+	at org.apache.tomcat.core.ContextManager.internalService(ContextManager.java:812)
+	at org.apache.tomcat.core.ContextManager.service(ContextManager.java:758)
+	at org.apache.tomcat.service.connector.Ajp12ConnectionHandler.processConnection(Ajp12ConnectionHandler.java:166)
+	at org.apache.tomcat.service.TcpWorkerThread.runIt(PoolTcpEndpoint.java:416)
+	at org.apache.tomcat.util.ThreadPool$ControlRunnable.run(ThreadPool.java:501)
+	at java.lang.Thread.run(Thread.java:484)
+
+2003-07-09 00:00:05 - path="" :jsp: init
+2003-07-10 02:18:08 - path="" :jsp: init
+2003-07-10 02:18:08 - path="" :jsp: init
+2003-07-10 02:18:39 - path="" :jsp: init
+2003-07-10 02:18:40 - path="" :jsp: init
+2003-07-10 02:19:13 - path="" :jsp: init
+2003-07-10 02:19:45 - path="" :jsp: init
+2003-07-10 02:20:17 - path="" :jsp: init
+2003-07-10 02:20:18 - path="" :jsp: init
+2003-07-10 02:20:18 - path="" :jsp: init
+2003-07-10 02:20:20 - path="" :jsp: init
+2003-07-10 02:20:51 - path="" :jsp: init
+2003-07-10 02:20:52 - path="" :jsp: init
+2003-07-10 02:20:53 - path="" :jsp: init
+2003-07-10 02:21:24 - path="" :jsp: init
+2003-07-10 02:21:56 - path="" :jsp: init
+2003-08-02 09:24:37 - path="" :jsp: init
+2003-08-02 22:06:22 - path="" :jsp: init
+2003-08-03 00:57:47 - path="" :jsp: init
+2003-08-03 06:45:25 - path="" :jsp: init
+2003-08-03 07:47:44 - path="" :jsp: init
+2003-08-03 16:21:57 - path="" :jsp: init
+2003-08-03 17:31:10 - path="" :jsp: init
+2003-08-04 03:16:41 - path="" :jsp: init
+2003-08-04 07:19:19 - path="" :jsp: init
+2003-08-04 14:02:02 - path="" :jsp: init
+2003-08-04 15:14:11 - path="" :jsp: init
+2003-08-06 20:12:49 - path="" :jsp: init
+2003-08-06 20:13:19 - path="" :jsp: init
+2003-08-06 20:16:41 - path="" :jsp: init
+2003-08-06 20:17:13 - path="" :jsp: init
+2003-08-06 20:20:32 - path="" :jsp: init
+2003-08-06 20:21:03 - path="" :jsp: init
+2003-08-06 20:28:00 - path="" :jsp: init
+2003-08-06 20:28:28 - path="" :jsp: init
+2003-08-06 20:30:45 - path="" :jsp: init
+2003-08-06 20:31:17 - path="" :jsp: init
+2003-08-06 20:33:03 - path="" :jsp: init
+2003-08-06 20:33:41 - path="" :jsp: init
+2003-08-12 08:47:33 - path="" :jsp: init
+2003-08-13 22:15:24 - path="" :jsp: init
+2003-08-13 22:15:24 - path="" :arahn.rc.RubricServlet: init
+2003-08-20 15:49:30 - path="" :jsp: init
+2003-08-20 16:22:02 - path="" :jsp: init
+2003-08-20 16:42:44 - path="" :jsp: init
+2003-08-20 16:43:12 - path="" :jsp: init
+2003-08-20 16:43:33 - path="" :jsp: init
+2003-08-20 16:43:58 - path="" :jsp: init
+2003-08-20 16:44:17 - path="" :jsp: init
+2003-08-20 16:44:44 - path="" :jsp: init
+2003-09-05 14:45:28 - path="" :jsp: init
+2003-09-05 14:45:49 - path="" :jsp: init
+2003-09-05 14:50:43 - path="" :jsp: init
+2003-09-27 05:58:25 - path="" :orgName=Pea&flowerArrangment1=0&theRedGene1=null&podShape1=0&flowerColor1=5d1f42&flowerColorAlpha1=100&_litterSizeErr1=2&_litterSize1=8&Species1=Pisum+sp%2e&peaColor1=ddaa00&peaColorAlpha1=100&plantSize1=1&pollenShape1=0&peaShape1=0&Sex1=hermaphrodite&twistedPod1=0&podColor1=aa00&podColorAlpha1=100&phenotype1=Purple+flowers%2c+round+pollen&ID1=352767023&flowerArrangment2=0&theRedGene2=null&podShape2=0&flowerColor2=c86464&flowerColorAlpha2=100&_litterSizeErr2=2&_litterSize2=8&Species2=Pisum+sp%2e&peaColor2=ddaa00&peaColorAlpha2=100&plantSize2=1&pollenShape2=1&peaShape2=0&Sex2=hermaphrodite&twistedPod2=0&podColor2=aa00&podColorAlpha2=100&phenotype2=Red+flowers%2c+long+pollen&ID2=1494765447&
+2003-09-27 05:58:25 - path="" :Loading Failed because java.lang.NullPointerException
+2003-09-27 05:58:25 - path="" :Exception thrown - java.lang.NullPointerException
+	at org.apache.tomcat.core.RequestImpl.getSession(RequestImpl.java:497)
+	at org.apache.tomcat.facade.HttpServletRequestFacade.getSession(HttpServletRequestFacade.java:382)
+	at arahn.vg.VGEngine.getUserInfo(VGEngine.java:163)
+	at arahn.vg.VGEngine.formatOrgs(VGEngine.java:311)
+	at arahn.vg.VGEngine.load2(VGEngine.java:189)
+	at arahn.vg.VGEngine.start(VGEngine.java:144)
+	at arahn.vg.VGEngine.executeCommand(VGEngine.java:224)
+	at arahn.vg.VGEngine.doPost(VGEngine.java:77)
+	at arahn.vg.VGEngine.doGet(VGEngine.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.tomcat.core.ServletWrapper.doService(ServletWrapper.java:405)
+	at org.apache.tomcat.core.Handler.service(Handler.java:287)
+	at org.apache.tomcat.core.ServletWrapper.service(ServletWrapper.java:372)
+	at org.apache.tomcat.core.ContextManager.internalService(ContextManager.java:812)
+	at org.apache.tomcat.core.ContextManager.service(ContextManager.java:758)
+	at org.apache.tomcat.service.connector.Ajp12ConnectionHandler.processConnection(Ajp12ConnectionHandler.java:166)
+	at org.apache.tomcat.service.TcpWorkerThread.runIt(PoolTcpEndpoint.java:416)
+	at org.apache.tomcat.util.ThreadPool$ControlRunnable.run(ThreadPool.java:501)
+	at java.lang.Thread.run(Thread.java:484)
+
+2003-09-28 22:59:02 - path="" :maxGenerations=3&flowerArrangment1=0&theRedGene1=null&podShape1=0&flowerColor1=5d1f42&flowerColorAlpha1=100&_litterSizeErr1=2&_litterSize1=8&Species1=Pisum+sp%2e&peaColor1=ddaa00&peaColorAlpha1=100&plantSize1=0&pollenShape1=1&peaShape1=0&Sex1=hermaphrodite&twistedPod1=0&podColor1=aa00&podColorAlpha1=100&phenotype1=Purple+flowers%2c+Short&ID1=913554673&flowerArrangment2=0&theRedGene2=null&podShape2=0&flowerColor2=5d1f42&flowerColorAlpha2=100&_litterSizeErr2=2&_litterSize2=8&Species2=Pisum+sp%2e&peaColor2=ddaa00&peaColorAlpha2=100&plantSize2=0&pollenShape2=1&peaShape2=0&Sex2=hermaphrodite&twistedPod2=0&podColor2=aa00&podColorAlpha2=100&phenotype2=Purple+flowers%2c+Short&ID2=1456158011&flowerArrangment3=0&theRedGene3=null&podShape3=0&flowerColor3=5d1f42&flowerColorAlpha3=100&_litterSizeErr3=2&_litterSize3=8&Species3=Pisum+sp%2e&peaColor3=ddaa00&peaColorAlpha3=100&plantSize3=0&pollenShape3=1&peaShape3=0&Sex3=hermaphrodite&twistedPod3=0&podColor3=aa00&podColorAlpha3=100&phenotype3=Purple+flowers%2c+Short&ID3=769703129&flowerArrangment4=0&theRedGene4=null&podShape4=0&flowerColor4=5d1f42&flowerColorAlpha4=100&_litterSizeErr4=2&_litterSize4=8&Species4=Pisum+sp%2e&peaColor4=ddaa00&peaColorAlpha4=100&plantSize4=0&pollenShape4=1&peaShape4=0&Sex4=hermaphrodite&twistedPod4=0&podColor4=aa00&podColorAlpha4=100&phenotype4=Purple+flowers%2c+Short&ID4=414838637&flowerArrangment5=0&theRedGene5=null&podShape5=0&flowerColor5=5d1f42&flowerColorAlpha5=100&_litterSizeErr5=2&_litterSize5=8&Species5=Pisum+sp%2e&peaColor5=ddaa00&peaColorAlpha5=100&plantSize5=0&pollenShape5=1&peaShape5=0&Sex5=hermaphrodite&twistedPod5=0&podColor5=aa00&podColorAlpha5=100&phenotype5=Purple+flowers%2c+Short&ID5=289040864&flowerArrangment6=0&theRedGene6=null&podShape6=0&flowerColor6=5d1f42&flowerColorAlpha6=100&_litterSizeErr6=2&_litterSize6=8&Species6=Pisum+sp%2e&peaColor6=ddaa00&peaColorAlpha6=100&plantSize6=0&pollenShape6=1&peaShape6=0&Sex6=hermaphrodite&twistedPod6=0&podColor6=aa00&podColorAlpha6=100&phenotype6=Purple+flowers%2c+Short&ID6=580906064&
+2003-09-28 22:59:02 - path="" :maxGenerations=1&flowerArrangment1=0&theRedGene1=null&podShape1=0&flowerColor1=5d1f42&flowerColorAlpha1=100&_litterSizeErr1=2&_litterSize1=8&Species1=Pisum+sp%2e&peaColor1=ddaa00&peaColorAlpha1=100&plantSize1=1&pollenShape1=1&peaShape1=0&Sex1=hermaphrodite&twistedPod1=0&podColor1=aa00&podColorAlpha1=100&phenotype1=Purple+flowers%2c+Tall&ID1=1489398767&flowerArrangment2=0&theRedGene2=null&podShape2=0&flowerColor2=5d1f42&flowerColorAlpha2=100&_litterSizeErr2=2&_litterSize2=8&Species2=Pisum+sp%2e&peaColor2=ddaa00&peaColorAlpha2=100&plantSize2=1&pollenShape2=1&peaShape2=0&Sex2=hermaphrodite&twistedPod2=0&podColor2=aa00&podColorAlpha2=100&phenotype2=Purple+flowers%2c+Tall&ID2=1211438224&flowerArrangment3=0&theRedGene3=null&podShape3=0&flowerColor3=5d1f42&flowerColorAlpha3=100&_litterSizeErr3=2&_litterSize3=8&Species3=Pisum+sp%2e&peaColor3=ddaa00&peaColorAlpha3=100&plantSize3=1&pollenShape3=1&peaShape3=0&Sex3=hermaphrodite&twistedPod3=0&podColor3=aa00&podColorAlpha3=100&phenotype3=Purple+flowers%2c+Tall&ID3=478876613&
+2003-09-28 22:59:02 - path="" :Mating Failed because java.lang.NullPointerException
+2003-09-28 22:59:02 - path="" :Exception thrown - java.lang.NullPointerException
+	at org.apache.tomcat.core.RequestImpl.getSession(RequestImpl.java:497)
+	at org.apache.tomcat.facade.HttpServletRequestFacade.getSession(HttpServletRequestFacade.java:382)
+	at arahn.vg.VGEngine.getUserInfo(VGEngine.java:163)
+	at arahn.vg.VGEngine.formatOrgs(VGEngine.java:311)
+	at arahn.vg.VGEngine.mate(VGEngine.java:283)
+	at arahn.vg.VGEngine.executeCommand(VGEngine.java:239)
+	at arahn.vg.VGEngine.doPost(VGEngine.java:77)
+	at arahn.vg.VGEngine.doGet(VGEngine.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.tomcat.core.ServletWrapper.doService(ServletWrapper.java:405)
+	at org.apache.tomcat.core.Handler.service(Handler.java:287)
+	at org.apache.tomcat.core.ServletWrapper.service(ServletWrapper.java:372)
+	at org.apache.tomcat.core.ContextManager.internalService(ContextManager.java:812)
+	at org.apache.tomcat.core.ContextManager.service(ContextManager.java:758)
+	at org.apache.tomcat.service.connector.Ajp12ConnectionHandler.processConnection(Ajp12ConnectionHandler.java:166)
+	at org.apache.tomcat.service.TcpWorkerThread.runIt(PoolTcpEndpoint.java:416)
+	at org.apache.tomcat.util.ThreadPool$ControlRunnable.run(ThreadPool.java:501)
+	at java.lang.Thread.run(Thread.java:484)
+
+2003-09-28 22:59:02 - path="" :Mating Failed because java.lang.NullPointerException
+2003-09-28 22:59:02 - path="" :Exception thrown - java.lang.NullPointerException
+	at org.apache.tomcat.core.RequestImpl.getSession(RequestImpl.java:497)
+	at org.apache.tomcat.facade.HttpServletRequestFacade.getSession(HttpServletRequestFacade.java:382)
+	at arahn.vg.VGEngine.getUserInfo(VGEngine.java:163)
+	at arahn.vg.VGEngine.formatOrgs(VGEngine.java:311)
+	at arahn.vg.VGEngine.mate(VGEngine.java:283)
+	at arahn.vg.VGEngine.executeCommand(VGEngine.java:239)
+	at arahn.vg.VGEngine.doPost(VGEngine.java:77)
+	at arahn.vg.VGEngine.doGet(VGEngine.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.tomcat.core.ServletWrapper.doService(ServletWrapper.java:405)
+	at org.apache.tomcat.core.Handler.service(Handler.java:287)
+	at org.apache.tomcat.core.ServletWrapper.service(ServletWrapper.java:372)
+	at org.apache.tomcat.core.ContextManager.internalService(ContextManager.java:812)
+	at org.apache.tomcat.core.ContextManager.service(ContextManager.java:758)
+	at org.apache.tomcat.service.connector.Ajp12ConnectionHandler.processConnection(Ajp12ConnectionHandler.java:166)
+	at org.apache.tomcat.service.TcpWorkerThread.runIt(PoolTcpEndpoint.java:416)
+	at org.apache.tomcat.util.ThreadPool$ControlRunnable.run(ThreadPool.java:501)
+	at java.lang.Thread.run(Thread.java:484)
+
+2003-09-28 23:02:50 - path="" :maxGenerations=3&flowerArrangment1=0&theRedGene1=null&podShape1=0&flowerColor1=5d1f42&flowerColorAlpha1=100&_litterSizeErr1=2&_litterSize1=8&Species1=Pisum+sp%2e&peaColor1=ddaa00&peaColorAlpha1=100&plantSize1=1&pollenShape1=1&peaShape1=0&Sex1=hermaphrodite&twistedPod1=0&podColor1=aa00&podColorAlpha1=100&phenotype1=Purple+flowers%2c+Tall&ID1=1685404703&flowerArrangment2=0&theRedGene2=null&podShape2=0&flowerColor2=5d1f42&flowerColorAlpha2=100&_litterSizeErr2=2&_litterSize2=8&Species2=Pisum+sp%2e&peaColor2=ddaa00&peaColorAlpha2=100&plantSize2=1&pollenShape2=1&peaShape2=0&Sex2=hermaphrodite&twistedPod2=0&podColor2=aa00&podColorAlpha2=100&phenotype2=Purple+flowers%2c+Tall&ID2=991864999&flowerArrangment3=0&theRedGene3=null&podShape3=0&flowerColor3=5d1f42&flowerColorAlpha3=100&_litterSizeErr3=2&_litterSize3=8&Species3=Pisum+sp%2e&peaColor3=ddaa00&peaColorAlpha3=100&plantSize3=1&pollenShape3=1&peaShape3=0&Sex3=hermaphrodite&twistedPod3=0&podColor3=aa00&podColorAlpha3=100&phenotype3=Purple+flowers%2c+Tall&ID3=370317874&flowerArrangment4=0&theRedGene4=null&podShape4=0&flowerColor4=5d1f42&flowerColorAlpha4=100&_litterSizeErr4=2&_litterSize4=8&Species4=Pisum+sp%2e&peaColor4=ddaa00&peaColorAlpha4=100&plantSize4=1&pollenShape4=1&peaShape4=0&Sex4=hermaphrodite&twistedPod4=0&podColor4=aa00&podColorAlpha4=100&phenotype4=Purple+flowers%2c+Tall&ID4=1158573558&flowerArrangment5=0&theRedGene5=null&podShape5=0&flowerColor5=5d1f42&flowerColorAlpha5=100&_litterSizeErr5=2&_litterSize5=8&Species5=Pisum+sp%2e&peaColor5=ddaa00&peaColorAlpha5=100&plantSize5=1&pollenShape5=1&peaShape5=0&Sex5=hermaphrodite&twistedPod5=0&podColor5=aa00&podColorAlpha5=100&phenotype5=Purple+flowers%2c+Tall&ID5=810794705&flowerArrangment6=0&theRedGene6=null&podShape6=0&flowerColor6=ccddcc&flowerColorAlpha6=100&_litterSizeErr6=2&_litterSize6=8&Species6=Pisum+sp%2e&peaColor6=ddaa00&peaColorAlpha6=100&plantSize6=1&pollenShape6=1&peaShape6=0&Sex6=hermaphrodite&twistedPod6=0&podColor6=aa00&podColorAlpha6=100&phenotype6=White+flowers%2c+Tall&ID6=467090303&flowerArrangment7=0&theRedGene7=null&podShape7=0&flowerColor7=ccddcc&flowerColorAlpha7=100&_litterSizeErr7=2&_litterSize7=8&Species7=Pisum+sp%2e&peaColor7=ddaa00&peaColorAlpha7=100&plantSize7=1&pollenShape7=1&peaShape7=0&Sex7=hermaphrodite&twistedPod7=0&podColor7=aa00&podColorAlpha7=100&phenotype7=White+flowers%2c+Tall&ID7=561180408&
+2003-09-28 23:02:50 - path="" :Mating Failed because java.lang.NullPointerException
+2003-09-28 23:02:50 - path="" :Exception thrown - java.lang.NullPointerException
+	at org.apache.tomcat.core.RequestImpl.getSession(RequestImpl.java:497)
+	at org.apache.tomcat.facade.HttpServletRequestFacade.getSession(HttpServletRequestFacade.java:382)
+	at arahn.vg.VGEngine.getUserInfo(VGEngine.java:163)
+	at arahn.vg.VGEngine.formatOrgs(VGEngine.java:311)
+	at arahn.vg.VGEngine.mate(VGEngine.java:283)
+	at arahn.vg.VGEngine.executeCommand(VGEngine.java:239)
+	at arahn.vg.VGEngine.doPost(VGEngine.java:77)
+	at arahn.vg.VGEngine.doGet(VGEngine.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.tomcat.core.ServletWrapper.doService(ServletWrapper.java:405)
+	at org.apache.tomcat.core.Handler.service(Handler.java:287)
+	at org.apache.tomcat.core.ServletWrapper.service(ServletWrapper.java:372)
+	at org.apache.tomcat.core.ContextManager.internalService(ContextManager.java:812)
+	at org.apache.tomcat.core.ContextManager.service(ContextManager.java:758)
+	at org.apache.tomcat.service.connector.Ajp12ConnectionHandler.processConnection(Ajp12ConnectionHandler.java:166)
+	at org.apache.tomcat.service.TcpWorkerThread.runIt(PoolTcpEndpoint.java:416)
+	at org.apache.tomcat.util.ThreadPool$ControlRunnable.run(ThreadPool.java:501)
+	at java.lang.Thread.run(Thread.java:484)
+
+2003-09-28 23:02:50 - path="" :maxGenerations=3&flowerArrangment1=0&theRedGene1=null&podShape1=0&flowerColor1=5d1f42&flowerColorAlpha1=100&_litterSizeErr1=2&_litterSize1=8&Species1=Pisum+sp%2e&peaColor1=ddaa00&peaColorAlpha1=100&plantSize1=1&pollenShape1=1&peaShape1=0&Sex1=hermaphrodite&twistedPod1=0&podColor1=aa00&podColorAlpha1=100&phenotype1=Purple+flowers%2c+Tall&ID1=1364395574&flowerArrangment2=0&theRedGene2=null&podShape2=0&flowerColor2=5d1f42&flowerColorAlpha2=100&_litterSizeErr2=2&_litterSize2=8&Species2=Pisum+sp%2e&peaColor2=ddaa00&peaColorAlpha2=100&plantSize2=1&pollenShape2=1&peaShape2=0&Sex2=hermaphrodite&twistedPod2=0&podColor2=aa00&podColorAlpha2=100&phenotype2=Purple+flowers%2c+Tall&ID2=43837007&flowerArrangment3=0&theRedGene3=null&podShape3=0&flowerColor3=5d1f42&flowerColorAlpha3=100&_litterSizeErr3=2&_litterSize3=8&Species3=Pisum+sp%2e&peaColor3=ddaa00&peaColorAlpha3=100&plantSize3=1&pollenShape3=1&peaShape3=0&Sex3=hermaphrodite&twistedPod3=0&podColor3=aa00&podColorAlpha3=100&phenotype3=Purple+flowers%2c+Tall&ID3=85344191&flowerArrangment4=0&theRedGene4=null&podShape4=0&flowerColor4=5d1f42&flowerColorAlpha4=100&_litterSizeErr4=2&_litterSize4=8&Species4=Pisum+sp%2e&peaColor4=ddaa00&peaColorAlpha4=100&plantSize4=1&pollenShape4=1&peaShape4=0&Sex4=hermaphrodite&twistedPod4=0&podColor4=aa00&podColorAlpha4=100&phenotype4=Purple+flowers%2c+Tall&ID4=1586053800&
+2003-09-28 23:02:50 - path="" :Mating Failed because java.lang.NullPointerException
+2003-09-28 23:02:50 - path="" :Exception thrown - java.lang.NullPointerException
+	at org.apache.tomcat.core.RequestImpl.getSession(RequestImpl.java:497)
+	at org.apache.tomcat.facade.HttpServletRequestFacade.getSession(HttpServletRequestFacade.java:382)
+	at arahn.vg.VGEngine.getUserInfo(VGEngine.java:163)
+	at arahn.vg.VGEngine.formatOrgs(VGEngine.java:311)
+	at arahn.vg.VGEngine.mate(VGEngine.java:283)
+	at arahn.vg.VGEngine.executeCommand(VGEngine.java:239)
+	at arahn.vg.VGEngine.doPost(VGEngine.java:77)
+	at arahn.vg.VGEngine.doGet(VGEngine.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.tomcat.core.ServletWrapper.doService(ServletWrapper.java:405)
+	at org.apache.tomcat.core.Handler.service(Handler.java:287)
+	at org.apache.tomcat.core.ServletWrapper.service(ServletWrapper.java:372)
+	at org.apache.tomcat.core.ContextManager.internalService(ContextManager.java:812)
+	at org.apache.tomcat.core.ContextManager.service(ContextManager.java:758)
+	at org.apache.tomcat.service.connector.Ajp12ConnectionHandler.processConnection(Ajp12ConnectionHandler.java:166)
+	at org.apache.tomcat.service.TcpWorkerThread.runIt(PoolTcpEndpoint.java:416)
+	at org.apache.tomcat.util.ThreadPool$ControlRunnable.run(ThreadPool.java:501)
+	at java.lang.Thread.run(Thread.java:484)
+
+2003-09-29 12:09:34 - path="" :maxGenerations=1&flowerArrangment1=0&theRedGene1=null&podShape1=0&flowerColor1=5d1f42&flowerColorAlpha1=100&_litterSizeErr1=2&_litterSize1=8&Species1=Pisum+sp%2e&peaColor1=ddaa00&peaColorAlpha1=100&plantSize1=1&pollenShape1=1&peaShape1=0&Sex1=hermaphrodite&twistedPod1=0&podColor1=aa00&podColorAlpha1=100&phenotype1=Purple+flowers%2c+Tall&ID1=1881989833&flowerArrangment2=0&theRedGene2=null&podShape2=0&flowerColor2=5d1f42&flowerColorAlpha2=100&_litterSizeErr2=2&_litterSize2=8&Species2=Pisum+sp%2e&peaColor2=ddaa00&peaColorAlpha2=100&plantSize2=1&pollenShape2=1&peaShape2=0&Sex2=hermaphrodite&twistedPod2=0&podColor2=aa00&podColorAlpha2=100&phenotype2=Purple+flowers%2c+Tall&ID2=1374215428&flowerArrangment3=0&theRedGene3=null&podShape3=0&flowerColor3=5d1f42&flowerColorAlpha3=100&_litterSizeErr3=2&_litterSize3=8&Species3=Pisum+sp%2e&peaColor3=ddaa00&peaColorAlpha3=100&plantSize3=1&pollenShape3=1&peaShape3=0&Sex3=hermaphrodite&twistedPod3=0&podColor3=aa00&podColorAlpha3=100&phenotype3=Purple+flowers%2c+Tall&ID3=1573708764&
+2003-09-29 12:09:34 - path="" :Mating Failed because java.lang.NullPointerException
+2003-09-29 12:09:34 - path="" :Exception thrown - java.lang.NullPointerException
+	at org.apache.tomcat.core.RequestImpl.getSession(RequestImpl.java:497)
+	at org.apache.tomcat.facade.HttpServletRequestFacade.getSession(HttpServletRequestFacade.java:382)
+	at arahn.vg.VGEngine.getUserInfo(VGEngine.java:163)
+	at arahn.vg.VGEngine.formatOrgs(VGEngine.java:311)
+	at arahn.vg.VGEngine.mate(VGEngine.java:283)
+	at arahn.vg.VGEngine.executeCommand(VGEngine.java:239)
+	at arahn.vg.VGEngine.doPost(VGEngine.java:77)
+	at arahn.vg.VGEngine.doGet(VGEngine.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.tomcat.core.ServletWrapper.doService(ServletWrapper.java:405)
+	at org.apache.tomcat.core.Handler.service(Handler.java:287)
+	at org.apache.tomcat.core.ServletWrapper.service(ServletWrapper.java:372)
+	at org.apache.tomcat.core.ContextManager.internalService(ContextManager.java:812)
+	at org.apache.tomcat.core.ContextManager.service(ContextManager.java:758)
+	at org.apache.tomcat.service.connector.Ajp12ConnectionHandler.processConnection(Ajp12ConnectionHandler.java:166)
+	at org.apache.tomcat.service.TcpWorkerThread.runIt(PoolTcpEndpoint.java:416)
+	at org.apache.tomcat.util.ThreadPool$ControlRunnable.run(ThreadPool.java:501)
+	at java.lang.Thread.run(Thread.java:484)
+
+2003-09-29 12:40:49 - path="" :maxGenerations=2&flowerArrangment1=0&theRedGene1=null&podShape1=0&flowerColor1=5d1f42&flowerColorAlpha1=100&_litterSizeErr1=2&_litterSize1=8&Species1=Pisum+sp%2e&peaColor1=ddaa00&peaColorAlpha1=100&plantSize1=1&pollenShape1=1&peaShape1=0&Sex1=hermaphrodite&twistedPod1=0&podColor1=aa00&podColorAlpha1=100&phenotype1=Axial+Flowers%2c+Smooth+Pods%2c+Purple+flowers%2c+Green+pods&ID1=574485701&flowerArrangment2=0&theRedGene2=null&podShape2=0&flowerColor2=5d1f42&flowerColorAlpha2=100&_litterSizeErr2=2&_litterSize2=8&Species2=Pisum+sp%2e&peaColor2=ddaa00&peaColorAlpha2=100&plantSize2=1&pollenShape2=1&peaShape2=0&Sex2=hermaphrodite&twistedPod2=0&podColor2=aa00&podColorAlpha2=100&phenotype2=Axial+Flowers%2c+Smooth+Pods%2c+Purple+flowers%2c+Green+pods&ID2=221190690&flowerArrangment3=0&theRedGene3=null&podShape3=0&flowerColor3=5d1f42&flowerColorAlpha3=100&_litterSizeErr3=2&_litterSize3=8&Species3=Pisum+sp%2e&peaColor3=ddaa00&peaColorAlpha3=100&plantSize3=1&pollenShape3=1&peaShape3=0&Sex3=hermaphrodite&twistedPod3=0&podColor3=aa00&podColorAlpha3=100&phenotype3=Axial+Flowers%2c+Smooth+Pods%2c+Purple+flowers%2c+Green+pods&ID3=595718914&
+2003-09-29 12:40:49 - path="" :Mating Failed because java.lang.NullPointerException
+2003-09-29 12:40:49 - path="" :Exception thrown - java.lang.NullPointerException
+	at org.apache.tomcat.core.RequestImpl.getSession(RequestImpl.java:497)
+	at org.apache.tomcat.facade.HttpServletRequestFacade.getSession(HttpServletRequestFacade.java:382)
+	at arahn.vg.VGEngine.getUserInfo(VGEngine.java:163)
+	at arahn.vg.VGEngine.formatOrgs(VGEngine.java:311)
+	at arahn.vg.VGEngine.mate(VGEngine.java:283)
+	at arahn.vg.VGEngine.executeCommand(VGEngine.java:239)
+	at arahn.vg.VGEngine.doPost(VGEngine.java:77)
+	at arahn.vg.VGEngine.doGet(VGEngine.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.tomcat.core.ServletWrapper.doService(ServletWrapper.java:405)
+	at org.apache.tomcat.core.Handler.service(Handler.java:287)
+	at org.apache.tomcat.core.ServletWrapper.service(ServletWrapper.java:372)
+	at org.apache.tomcat.core.ContextManager.internalService(ContextManager.java:812)
+	at org.apache.tomcat.core.ContextManager.service(ContextManager.java:758)
+	at org.apache.tomcat.service.connector.Ajp12ConnectionHandler.processConnection(Ajp12ConnectionHandler.java:166)
+	at org.apache.tomcat.service.TcpWorkerThread.runIt(PoolTcpEndpoint.java:416)
+	at org.apache.tomcat.util.ThreadPool$ControlRunnable.run(ThreadPool.java:501)
+	at java.lang.Thread.run(Thread.java:484)
+
+2003-10-22 05:39:10 - path="" :jsp: init
+2004-03-12 15:47:48 - path="" :jsp: init
+2004-07-02 12:48:46 - path="" :maxGenerations=2&flowerArrangment1=0&theRedGene1=null&podShape1=0&flowerColor1=5d1f42&flowerColorAlpha1=100&_litterSizeErr1=2&_litterSize1=8&Species1=Pisum+sp%2e&peaColor1=ddaa00&peaColorAlpha1=100&plantSize1=1&pollenShape1=1&peaShape1=0&Sex1=hermaphrodite&twistedPod1=0&podColor1=aa00&podColorAlpha1=100&phenotype1=Axial+Flowers%2c+Smooth+Pods%2c+Purple+flowers%2c+Green+pods&ID1=80917156&
+2004-07-02 12:48:46 - path="" :Mating Failed because java.lang.NullPointerException
+2004-07-02 12:48:47 - path="" :Exception thrown - java.lang.NullPointerException
+	at org.apache.tomcat.core.RequestImpl.getSession(RequestImpl.java:497)
+	at org.apache.tomcat.facade.HttpServletRequestFacade.getSession(HttpServletRequestFacade.java:382)
+	at arahn.vg.VGEngine.getUserInfo(VGEngine.java:163)
+	at arahn.vg.VGEngine.formatOrgs(VGEngine.java:311)
+	at arahn.vg.VGEngine.mate(VGEngine.java:283)
+	at arahn.vg.VGEngine.executeCommand(VGEngine.java:239)
+	at arahn.vg.VGEngine.doPost(VGEngine.java:77)
+	at arahn.vg.VGEngine.doGet(VGEngine.java:63)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:740)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:853)
+	at org.apache.tomcat.core.ServletWrapper.doService(ServletWrapper.java:405)
+	at org.apache.tomcat.core.Handler.service(Handler.java:287)
+	at org.apache.tomcat.core.ServletWrapper.service(ServletWrapper.java:372)
+	at org.apache.tomcat.core.ContextManager.internalService(ContextManager.java:812)
+	at org.apache.tomcat.core.ContextManager.service(ContextManager.java:758)
+	at org.apache.tomcat.service.connector.Ajp12ConnectionHandler.processConnection(Ajp12ConnectionHandler.java:166)
+	at org.apache.tomcat.service.TcpWorkerThread.runIt(PoolTcpEndpoint.java:416)
+	at org.apache.tomcat.util.ThreadPool$ControlRunnable.run(ThreadPool.java:501)
+	at java.lang.Thread.run(Thread.java:484)
+
+2004-09-20 00:11:32 - path="" :jsp: init
+2004-09-20 00:16:47 - path="" :jsp: init
+2004-09-20 00:17:26 - path="" :jsp: init
+2004-09-20 00:17:33 - path="" :jsp: init
+2004-09-20 00:18:16 - path="" :jsp: init
+2004-09-20 00:26:40 - path="" :jsp: init
+2004-12-19 14:11:09 - path="" :jsp: init
